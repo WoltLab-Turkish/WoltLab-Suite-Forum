@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Turkish" countrycode="tr">
+	<category name="wbb.acp.board">
+		<item name="wbb.acp.board.add"><![CDATA[Forum Ekle]]></item>
+		<item name="wbb.acp.board.addSubboard"><![CDATA[Alt Forum Ekle]]></item>
+		<item name="wbb.acp.board.articleThreadBoardID"><![CDATA[Forum]]></item>
+		<item name="wbb.acp.board.articleThreadBoardID.description"><![CDATA[Tartışma konuları seçilen forum içerisinde oluşturulacaktır.]]></item>
+		<item name="wbb.acp.board.boardType"><![CDATA[Forum Türü]]></item>
+		<item name="wbb.acp.board.boardType.board"><![CDATA[Forum]]></item>
+		<item name="wbb.acp.board.boardType.category"><![CDATA[Kategori]]></item>
+		<item name="wbb.acp.board.boardType.externalLink"><![CDATA[Dış Bağlantı]]></item>
+		<item name="wbb.acp.board.button.choose"><![CDATA[Forum Seç]]></item>
+		<item name="wbb.acp.board.button.copy"><![CDATA[Forum Kopyala]]></item>
+		<item name="wbb.acp.board.category.general"><![CDATA[Genel Bilgiler]]></item>
+		<item name="wbb.acp.board.category.moderatorPermissions"><![CDATA[Kullanıcı Yetkileri]]></item>
+		<item name="wbb.acp.board.category.position"><![CDATA[Görüntülenme Sırası]]></item>
+		<item name="wbb.acp.board.category.threadForm"><![CDATA[Konu Formu]]></item>
+		<item name="wbb.acp.board.category.userPermissions"><![CDATA[Kullanıcı Grup Yetkileri]]></item>
+		<item name="wbb.acp.board.condition.reverseLogic"><![CDATA[Ters ”Forum” seçimi]]></item>
+		<item name="wbb.acp.board.condition.reverseLogic.description"><![CDATA[Seçilirse, ilgili forum “Forum” altında seçilen forumlardan <strong> olmayabilir </strong>.]]></item>
+		<item name="wbb.acp.board.copy.confirmMessage"><![CDATA[Bu forumu gerçekten kopyalamak istiyor musunuz? Tüm ayarlar ve yetkiler de kopyalanacak, içerik ve istatistikler ise kopyalanmayacak.]]></item>
+		<item name="wbb.acp.board.copy.recursive"><![CDATA[Alt forumları kopyala]]></item>
+		<item name="wbb.acp.board.copy.recursive.description"><![CDATA[Alt forumlar, kategoriler ve bağlantılar kopyalanır.]]></item>
+		<item name="wbb.acp.board.countUserPosts"><![CDATA[Kullanıcı Mesajlarını Say]]></item>
+		<item name="wbb.acp.board.descriptionUseHtml"><![CDATA[Forum tanımında HTML kodlamayı etkinleştir]]></item>
+		<item name="wbb.acp.board.edit"><![CDATA[Forum Düzenle]]></item>
+		<item name="wbb.acp.board.enableBestAnswer"><![CDATA[Gönderiyi ”En İyi Cevap” olarak işaretlemeyi etkinleştirin]]></item>
+		<item name="wbb.acp.board.enableMarkingAsDone"><![CDATA[Konuyu çözümlenmiş olarak işaretleme etkin]]></item>
+		<item name="wbb.acp.board.externalURL"><![CDATA[Bağlantı URL'si]]></item>
+		<item name="wbb.acp.board.filter"><![CDATA[Ayırma ve Sıralama Seçenekleri]]></item>
+		<item name="wbb.acp.board.icon"><![CDATA[Özel Simge]]></item>
+		<item name="wbb.acp.board.icon.closed"><![CDATA[Kapalı]]></item>
+		<item name="wbb.acp.board.icon.color"><![CDATA[Renk]]></item>
+		<item name="wbb.acp.board.icon.default"><![CDATA[Varsayılan]]></item>
+		<item name="wbb.acp.board.icon.external"><![CDATA[Harici Bağlantı]]></item>
+		<item name="wbb.acp.board.icon.name"><![CDATA[Simge]]></item>
+		<item name="wbb.acp.board.icon.unread"><![CDATA[Okunmamış]]></item>
+		<item name="wbb.acp.board.icon.useColor"><![CDATA[Özel renk kullan]]></item>
+		<item name="wbb.acp.board.ignorable"><![CDATA[Kullanıcılar bu forumu görmezden gelebilir]]></item>
+		<item name="wbb.acp.board.isClosed"><![CDATA[Arşiv (yeni mesajlara izin verme)]]></item>
+		<item name="wbb.acp.board.isInvisible"><![CDATA[Forumu forum listesinde gizle]]></item>
+		<item name="wbb.acp.board.isInvisible.description"><![CDATA[Bu forum artık forum listesinde görünmez ancak doğrudan bağlantı adresi verilerek ulaşılabilir.]]></item>
+		<item name="wbb.acp.board.isPrivate"><![CDATA[Konular özeldir]]></item>
+		<item name="wbb.acp.board.isPrivate.description"><![CDATA[Normal kullanıcılar yalnızca kendi ileti dizilerini okuyabilir ve yanıtlayabilir.]]></item>
+		<item name="wbb.acp.board.list"><![CDATA[Forumlar]]></item>
+		<item name="wbb.acp.board.metaDescription"><![CDATA[Meta Açıklaması]]></item>
+		<item name="wbb.acp.board.parentID"><![CDATA[Üst Forum]]></item>
+		<item name="wbb.acp.board.parentID.error.invalid"><![CDATA[Seçilen üst forum geçersiz.]]></item>
+		<item name="wbb.acp.board.permission"><![CDATA[Yetkiler]]></item>
+		<item name="wbb.acp.board.permission.copy"><![CDATA[Forum Yetkilerini Kopyala]]></item>
+		<item name="wbb.acp.board.permission.copy.boardID"><![CDATA[Kaynak]]></item>
+		<item name="wbb.acp.board.permission.copy.boardIDs"><![CDATA[Hedef Forumlar]]></item>
+		<item name="wbb.acp.board.permission.copy.copyAction.error.empty"><![CDATA[En azından “Yetkileri kopyala” ya da “Moderatörleri kopyala” seçeneklerinden birini seçiniz.]]></item>
+		<item name="wbb.acp.board.permission.copy.moderators"><![CDATA[Moderatörleri kopyala]]></item>
+		<item name="wbb.acp.board.permission.copy.permissions"><![CDATA[Yetkileri kopyala]]></item>
+		<item name="wbb.acp.board.permission.edit"><![CDATA[Forum Yetkilerini Düzenle]]></item>
+		<item name="wbb.acp.board.permission.edit.description"><![CDATA[{if $userGroup|isset}Kullanıcı Grubu: {$userGroup}{else}Kullanıcı: {$user->username}{/if}]]></item>
+		<item name="wbb.acp.board.permission.unsavedChanges"><![CDATA[Yetkiler üzerinde kaydedilmemiş değişiklikler yaptınız. Bu değişiklikleri gerçekten kaydetmeyip devam etmek istiyor musunuz?]]></item>
+		<item name="wbb.acp.board.permission.user"><![CDATA[Kullanıcı]]></item>
+		<item name="wbb.acp.board.permission.user.notice"><![CDATA[İzin durumu ({icon name='circle-check'} İzin Ver ve {icon name='ban'} Reddet), etkili izinleri temsil eder. Durum, miras kurallarına saygı gösterir, ebeveyn forumlarından ve kategorilerinden izinleri miras alır. Her alt kategori için miras alınan izinleri geçersiz kılabilirsiniz.<br /><br />İzin durumu, kullanıcının “{$user->username}” katıldığı tüm kullanıcı grupları tarafından verilen veya reddedilen etkili izinlere saygı gösterir.]]></item>
+		<item name="wbb.acp.board.permission.userGroup"><![CDATA[Kullanıcı Grubu]]></item>
+		<item name="wbb.acp.board.permission.userGroup.notice"><![CDATA[Yetki durumu olan ({icon name='circle-check'} Kabul ve {icon name='ban'} Red) etkin yetkileri temsil etmektedir. Bu durum alt forum ve kategorilerden gelen önceki yetkilere ve kurallara da uyar. Her alt forum, kategori için önceden gelen yetkileri tekrar belirleyebilirsiniz.]]></item>
+		<item name="wbb.acp.board.position"><![CDATA[Görüntülenme Sırası]]></item>
+		<item name="wbb.acp.board.position.description"><![CDATA[Forumların görüntülenme sırasını seçiniz.]]></item>
+		<item name="wbb.acp.board.postsPerPage"><![CDATA[Sayfa başına kaç adet mesaj gösterilsin?]]></item>
+		<item name="wbb.acp.board.properties"><![CDATA[Ayarlar]]></item>
+		<item name="wbb.acp.board.searchable"><![CDATA[Aranabilir mesajlar]]></item>
+		<item name="wbb.acp.board.searchableForSimilarThreads"><![CDATA[Mesajlar benzer konuları aramak için kullanılır]]></item>
+		<item name="wbb.acp.board.sortField"><![CDATA[Konuların sıralanması]]></item>
+		<item name="wbb.acp.board.style"><![CDATA[Tema]]></item>
+		<item name="wbb.acp.board.style.description"><![CDATA[Forum ziyaretlerinde seçilen temanın görüntülenmesini sağlar]]></item>
+		<item name="wbb.acp.board.styleSettings"><![CDATA[Tema Ayarları]]></item>
+		<item name="wbb.acp.board.threadForm"><![CDATA[Konu Formu]]></item>
+		<item name="wbb.acp.board.threadForm.boards"><![CDATA[Forumlar]]></item>
+		<item name="wbb.acp.board.threadForm.boards.description"><![CDATA[Konu formunun aktif olması gereken forumları seçin.]]></item>
+		<item name="wbb.acp.board.threadForm.boards.hasAlreadyFormWarning"><![CDATA[Bu forum zaten başka bir konu formuna atanmış ve bu nedenle seçilemez.]]></item>
+		<item name="wbb.acp.board.threadForm.boards.noBoard"><![CDATA[Bu düğüm bir kategori veya harici bir bağlantıdır ve bir konu formuna atanamaz.]]></item>
+		<item name="wbb.acp.board.threadForm.option.add"><![CDATA[Seçenek Ekle]]></item>
+		<item name="wbb.acp.board.threadForm.option.edit"><![CDATA[Seçeneği Düzenle]]></item>
+		<item name="wbb.acp.board.threadForm.options"><![CDATA[Seçenekler]]></item>
+		<item name="wbb.acp.board.threadsPerPage"><![CDATA[Sayfa başına kaç adet konu gösterilsin?]]></item>
+	</category>
+	<category name="wbb.acp.menu">
+		<item name="wbb.acp.menu.link.board"><![CDATA[Forumlar]]></item>
+		<item name="wbb.acp.menu.link.board.add"><![CDATA[Forum Ekle]]></item>
+		<item name="wbb.acp.menu.link.board.list"><![CDATA[Forumlar]]></item>
+		<item name="wbb.acp.menu.link.rssFeed"><![CDATA[RSS]]></item>
+		<item name="wbb.acp.menu.link.rssFeed.add"><![CDATA[RSS Ekle]]></item>
+		<item name="wbb.acp.menu.link.rssFeed.list"><![CDATA[RSS Kaynakları]]></item>
+		<item name="wbb.acp.menu.link.threadForm.add"><![CDATA[Konu Formu Ekle]]></item>
+		<item name="wbb.acp.menu.link.threadForm.edit"><![CDATA[Konu Formunu Düzenle]]></item>
+		<item name="wbb.acp.menu.link.threadForm.list"><![CDATA[Konu Formu]]></item>
+		<item name="wbb.acp.menu.link.threadsAndPosts"><![CDATA[Konular &amp; Mesajlar]]></item>
+		<item name="wbb.acp.menu.link.threadsAndPosts.postBulkProcessing"><![CDATA[Mesajların Toplu İşlemi]]></item>
+		<item name="wbb.acp.menu.link.threadsAndPosts.threadBulkProcessing"><![CDATA[Konuların Toplu İşlemi]]></item>
+	</category>
+	<category name="wbb.acp.pip">
+		<item name="wbb.acp.pip.objectType.condition.threadState.accessibleOnly"><![CDATA[Yalnızca erişilebilir iş parçacığı listeleri ile ilgili durumları sunun]]></item>
+		<item name="wbb.acp.pip.objectType.condition.threadState.accessibleOnly.description"><![CDATA[Koşulu kurarken, yalnızca <kdb>wbb\data\thread\AccessibleThreadList</kdb> ile birlikte çalışan durumlar sunulur. Çöp kutusu, onay durumu ve bağlantılarla ilgili durumlar seçildiğinde kullanılamaz.]]></item>
+	</category>
+	<category name="wbb.acp.post">
+		<item name="wbb.acp.post.bulkProcessing"><![CDATA[Mesajların Toplu İşlenmesi]]></item>
+		<item name="wbb.acp.post.bulkProcessing.action"><![CDATA[İşlemler]]></item>
+		<item name="wbb.acp.post.bulkProcessing.close"><![CDATA[Kapat]]></item>
+		<item name="wbb.acp.post.bulkProcessing.conditions"><![CDATA[Koşullar]]></item>
+		<item name="wbb.acp.post.bulkProcessing.delete"><![CDATA[Sil]]></item>
+		<item name="wbb.acp.post.bulkProcessing.disable"><![CDATA[Etkisizleştir]]></item>
+		<item name="wbb.acp.post.bulkProcessing.enable"><![CDATA[Etkinleştir]]></item>
+		<item name="wbb.acp.post.bulkProcessing.open"><![CDATA[Aç]]></item>
+		<item name="wbb.acp.post.bulkProcessing.restore"><![CDATA[Geri Yükle]]></item>
+		<item name="wbb.acp.post.bulkProcessing.success"><![CDATA[Seçilen işlem çalıştırıldı ve {#$affectedObjectCount} mesajı{if $affectedObjectCount != 1}{/if} etkiledi.{if $affectedObjectCount > 0}<br>Lütfen daha sonra <a href="{link controller='RebuildData'}{/link}">“Bütünlük Doğrulama”</a> yaptığınızdan emin olun.{/if}]]></item>
+		<item name="wbb.acp.post.bulkProcessing.trash"><![CDATA[Çöp Kutusuna Taşı]]></item>
+		<item name="wbb.acp.post.bulkProcessing.warning"><![CDATA[<strong>Dikkat</strong>: Toplu işleme seçilen koşulları karşılayan tüm mesajlar için aşağıdaki tüm işlemleri tekrar herhangi bir onay istemeden çalıştıracaktır!]]></item>
+	</category>
+	<category name="wbb.acp.rssFeed">
+		<item name="wbb.acp.rssFeed.add"><![CDATA[RSS Ekle]]></item>
+		<item name="wbb.acp.rssFeed.board"><![CDATA[Hedef Forum]]></item>
+		<item name="wbb.acp.rssFeed.board.description"><![CDATA[Konular seçilen forumda oluşturulacak.]]></item>
+		<item name="wbb.acp.rssFeed.closeThread"><![CDATA[Oluşturduktan sonra konuyu kapat]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime"><![CDATA[Kontrol Sıklığı]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.1200"><![CDATA[Her 20 dakika]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.172800"><![CDATA[Her 48 saat]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.1800"><![CDATA[Her 30 dakika]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.21600"><![CDATA[Her 6 saat]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.3600"><![CDATA[Her 60 dakika]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.600"><![CDATA[Her 10 dakika]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.604800"><![CDATA[Her 7 gün]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.7200"><![CDATA[Her 2 saat]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.86400"><![CDATA[Her 24 saat]]></item>
+		<item name="wbb.acp.rssFeed.cycleTime.description"><![CDATA[Ayarlanan sıklığa göre RSS yeni girdiler için kontrol edilecek.]]></item>
+		<item name="wbb.acp.rssFeed.description"><![CDATA[Dış RSS kaynakları belirli zaman aralıklarınca kontrol edilecek yeni içerikler konu olarak oluşturulacaktır.]]></item>
+		<item name="wbb.acp.rssFeed.disableThread"><![CDATA[Oluşturduktan sonra konuyu etkisizleştir]]></item>
+		<item name="wbb.acp.rssFeed.edit"><![CDATA[RSS Düzenle]]></item>
+		<item name="wbb.acp.rssFeed.error.noBoards"><![CDATA[RSS ekleyebilmek için öncelikle en az bir adet <a href="{link controller='BoardAdd' application='wbb'}{/link}">forum oluşturmalısınız</a>.]]></item>
+		<item name="wbb.acp.rssFeed.errorMessage"><![CDATA[Son çalıştırmada bir hata oluştu.]]></item>
+		<item name="wbb.acp.rssFeed.errorMessage.info"><![CDATA[Son çalıştırmada aşağıdaki hata meydana geldi:]]></item>
+		<item name="wbb.acp.rssFeed.language.description"><![CDATA[Konular seçilen dilde oluşturulacaktır.]]></item>
+		<item name="wbb.acp.rssFeed.lastRun"><![CDATA[Son Kontrol]]></item>
+		<item name="wbb.acp.rssFeed.list"><![CDATA[RSS Kaynakları]]></item>
+		<item name="wbb.acp.rssFeed.maxResults"><![CDATA[En Fazla Yeni Girdi]]></item>
+		<item name="wbb.acp.rssFeed.maxResults.description"><![CDATA[Her çalışmada elde edilen en fazla sayıda yeni RSS kaynağı girdi sayısı. Ektisizleştirmek için 0 kullanın. Hızlı bir şekilde pek çok girdi sağlaması açısından RSS kaynakları sayısını sınırlandırmanız önerilir.]]></item>
+		<item name="wbb.acp.rssFeed.searchKeywords"><![CDATA[Anahtar Kelime Süzgeci]]></item>
+		<item name="wbb.acp.rssFeed.searchKeywords.description"><![CDATA[Yukarıda belirtilmiş anahtar kelimeleri içeren girdilerin elde edilmesini tercih edebilirsiniz böylece diğer tüm girdiler değerlendirmeye alınmayacaktır. Birden fazla anahtar kelimeyi virgül ile ayırın.]]></item>
+		<item name="wbb.acp.rssFeed.template"><![CDATA[{if $link && MODULE_URL_UNFURLING}[url]{@$link}[/url]{else}[quote='{@$author}'{if $link},'{@$link}'{/if}]{@$description}[/quote]{/if}]]></item>
+		<item name="wbb.acp.rssFeed.threadData"><![CDATA[Konu Verisi]]></item>
+		<item name="wbb.acp.rssFeed.threadTags"><![CDATA[Konu Etiketleri]]></item>
+		<item name="wbb.acp.rssFeed.threadTags.description"><![CDATA[Oluşturulan konular için pek çok konu etiketi belirleyebilirsiniz. Çok sayıdaki konu etiketlerini virgül ile ayırın.]]></item>
+		<item name="wbb.acp.rssFeed.url"><![CDATA[Kaynak URL]]></item>
+		<item name="wbb.acp.rssFeed.url.description"><![CDATA[RSS kaynağı URL'sini buraya girin.]]></item>
+		<item name="wbb.acp.rssFeed.useCategoriesAsTags"><![CDATA[İçeri aktarılan girdilerin kategorilerini konu etiketi olarak kullan]]></item>
+		<item name="wbb.acp.rssFeed.username.description"><![CDATA[Konular girdiğiniz yazar kullanılarak oluşturulacaktır.]]></item>
+	</category>
+	<category name="wbb.acp.thread">
+		<item name="wbb.acp.thread.bulkProcessing"><![CDATA[Konuların Toplu İşlenmesi]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.action"><![CDATA[İşlem]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.changeLanguage"><![CDATA[Dil Değiştir]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.changeLanguage.newLanguageID"><![CDATA[Yeni Dil]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.changeLanguage.noLanguage"><![CDATA[Dil Olmadan]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.close"><![CDATA[Kapat]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.conditions"><![CDATA[Koşullar]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.delete"><![CDATA[Sil]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.disable"><![CDATA[Etkisizleştir]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.enable"><![CDATA[Etkinleştir]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.markAsDone"><![CDATA[Çözümlenmiş olarak işaretle]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.markAsUndone"><![CDATA[Çözümlenmemiş olarak işaretle]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.move"><![CDATA[Taşı]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.move.targetBoardID"><![CDATA[Hedef Forum]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.open"><![CDATA[Aç]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.removeLink"><![CDATA[Bağlantıları Kaldır]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.restore"><![CDATA[Geri Yükle]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.success"><![CDATA[Seçilen işlem çalıştırıldı ve {#$affectedObjectCount} konuyu{if $affectedObjectCount != 1}{/if} etkiledi.{if $affectedObjectCount > 0}<br>Lütfen daha sonra <a href="{link controller='RebuildData'}{/link}">“Bütünlük Doğrulama”</a> yaptığınızdan emin olun.{/if}]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.trash"><![CDATA[Çöp Kutusuna Taşı]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.warning"><![CDATA[Dikkat! Toplu işleme seçilen koşulları karşılayan tüm konular için aşağıdaki tüm işlemleri tekrar herhangi bir onay istemeden çalıştıracaktır!]]></item>
+	</category>
+	<category name="wbb.acp.user">
+		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[Belirtilenden Daha Fazla Olan Toplam Mesajlar]]></item>
+		<item name="wbb.acp.user.conditions.postsLessThan"><![CDATA[Belirtilenden Daha Az Olan Toplam Mesajlar]]></item>
+	</category>
+	<category name="wbb.board">
+		<item name="wbb.board.board"><![CDATA[Forum]]></item>
+		<item name="wbb.board.clicks"><![CDATA[Tıklamalar]]></item>
+		<item name="wbb.board.displayOptions"><![CDATA[Görüntüleme Seçenekleri]]></item>
+		<item name="wbb.board.externalURL.title"><![CDATA[Şuraya Yönlendiriliyor: {$boardNode->getBoard()->externalURL}]]></item>
+		<item name="wbb.board.filterByDate"><![CDATA[Zaman Aralığı]]></item>
+		<item name="wbb.board.filterByDate.1"><![CDATA[24 saat]]></item>
+		<item name="wbb.board.filterByDate.100"><![CDATA[100 gün]]></item>
+		<item name="wbb.board.filterByDate.1000"><![CDATA[Herhangi bir tarihten itibaren]]></item>
+		<item name="wbb.board.filterByDate.14"><![CDATA[14 gün]]></item>
+		<item name="wbb.board.filterByDate.3"><![CDATA[3 gün]]></item>
+		<item name="wbb.board.filterByDate.30"><![CDATA[30 gün]]></item>
+		<item name="wbb.board.filterByDate.365"><![CDATA[365 gün]]></item>
+		<item name="wbb.board.filterByDate.60"><![CDATA[60 gün]]></item>
+		<item name="wbb.board.filterByDate.7"><![CDATA[7 gün]]></item>
+		<item name="wbb.board.filterByStatus"><![CDATA[Durum]]></item>
+		<item name="wbb.board.filterByStatus.closed"><![CDATA[Kapalı]]></item>
+		<item name="wbb.board.filterByStatus.deleted"><![CDATA[Çöpte]]></item>
+		<item name="wbb.board.filterByStatus.disabled"><![CDATA[Onay Bekliyor]]></item>
+		<item name="wbb.board.filterByStatus.done"><![CDATA[Çözülmüş]]></item>
+		<item name="wbb.board.filterByStatus.open"><![CDATA[Açık]]></item>
+		<item name="wbb.board.filterByStatus.read"><![CDATA[Okunmuş]]></item>
+		<item name="wbb.board.filterByStatus.undone"><![CDATA[Çözülmemiş]]></item>
+		<item name="wbb.board.filterByStatus.unread"><![CDATA[Okunmamış]]></item>
+		<item name="wbb.board.isPrivate"><![CDATA[(Özel)]]></item>
+		<item name="wbb.board.lastPosts"><![CDATA[Son Gönderiler]]></item>
+		<item name="wbb.board.markAsRead.doubleClick"><![CDATA[Bu forumu okunmuş olarak işaretlemek için çift tıklayın]]></item>
+		<item name="wbb.board.moderators"><![CDATA[Moderatörler]]></item>
+		<item name="wbb.board.noThreads"><![CDATA[{if $board->getThreads() > 0}Bu forumda ölçütlerinizle eşleşen herhangi bir konu yok.{if $hasActiveFilter} <a href="#" class="jsStaticDialog" data-dialog-id="wbbBoardSortFilter" role="button">Uygulanan filtreleri değiştirin.</a> <a href="{link controller='Board' application='wbb' object=$board}{/link}">Filtreleri sıfırlayın.</a>{/if}{else}Bu forumda herhangi bir konu yok.{/if}]]></item>
+		<item name="wbb.board.posts"><![CDATA[{plural value=$count 1='One post' other='# posts'}]]></item>
+		<item name="wbb.board.sortBy"><![CDATA[Sırala]]></item>
+		<item name="wbb.board.stats.detail"><![CDATA[<ul class="inlineList dotSeparated">
+<li>{#$board->getThreads()} Konu{if $board->getThreads() != 1}{/if}</li>
+<li>{#$board->getPosts()} Mesaj{if $board->getPosts() != 1}lar{/if} ({#$board->getPostsPerDay()} Günlük {if $board->getPostsPerDay() != 1}s{/if} Mesaj)</li>
+</ul>]]></item>
+		<item name="wbb.board.status.ignoring"><![CDATA[Yoksayıldı]]></item>
+		<item name="wbb.board.status.ignoring.description"><![CDATA[Kategori gizlenir  ve herhangi bir bildirim almazsınız.]]></item>
+		<item name="wbb.board.status.normal"><![CDATA[Abone olunmamış]]></item>
+		<item name="wbb.board.status.normal.description"><![CDATA[Abone olunmayan konulardaki yeni konular veya yeni gönderiler için bildirim almayın.]]></item>
+		<item name="wbb.board.status.threadsAndPosts"><![CDATA[Abone olundu (Mesajlar ve Konular)]]></item>
+		<item name="wbb.board.status.threadsAndPosts.description"><![CDATA[Yeni konu başlıkları ve yeni gönderiler için bildirimler alın.]]></item>
+		<item name="wbb.board.status.threadsOnly"><![CDATA[Abone olundu (Yalnızca konu başlıkları)]]></item>
+		<item name="wbb.board.status.threadsOnly.description"><![CDATA[Yeni konular için bildirim alın.]]></item>
+		<item name="wbb.board.status.watching"><![CDATA[Abone olundu]]></item>
+		<item name="wbb.board.subBoards"><![CDATA[Sub-forums]]></item>
+		<item name="wbb.board.unreadThreads"><![CDATA[{plural value=$unreadThreads 1='Bir okunmamış konu' other='# okunmamış konular'}]]></item>
+		<item name="wbb.board.usersOnline"><![CDATA[Bu Forumu Görüntüleyen Kullanıcılar]]></item>
+		<item name="wbb.board.watchedBoards.markAll"><![CDATA[Tümünü İşaretle]]></item>
+		<item name="wbb.board.watchedBoards.stopWatchingAll"><![CDATA[Tüm forumları izlemeyi bırak]]></item>
+		<item name="wbb.board.watchedBoards.stopWatchingAll.confirmMessage"><![CDATA[Tüm forumları izlemeyi bırakmak istiyor musunuz?]]></item>
+		<item name="wbb.board.watchedBoards.stopWatchingMarked"><![CDATA[İşaretlenmiş forumların{if $count > 1} ({#$count}izlenmesini bırak){/if}]]></item>
+		<item name="wbb.board.watchedBoards.stopWatchingMarked.confirmMessage"><![CDATA[İşaretlenmiş forumların izlenmesini gerçekten bırakmak istiyor musunuz?]]></item>
+		<item name="wbb.board.watchedBoards.unmarkAll"><![CDATA[Tümünü İşaretleme]]></item>
+	</category>
+	<category name="wbb.condition">
+		<item name="wbb.condition.page.board"><![CDATA[İstenen Forumlar]]></item>
+		<item name="wbb.condition.page.board.description"><![CDATA[Bildirim yalnızca aktif kullanıcı seçilen forumlardan birinde ise görüntülenecektir. “Ctrl/Shift” tuşu (Windows) veya “Command” (Mac OS) tuşu basılı tutularak ve istenen öğeler tıklanarak birden çok öğe seçilebilir.]]></item>
+	</category>
+	<category name="wbb.index">
+		<item name="wbb.index.ignoreBoards"><![CDATA[Forumları Aç / Kapat]]></item>
+		<item name="wbb.index.selectForumForNewThread"><![CDATA[Yeni Konu İçin Forum Seçiniz]]></item>
+		<item name="wbb.index.stats"><![CDATA[İstatistikler]]></item>
+		<item name="wbb.index.stats.detail"><![CDATA[<ul class="inlineList dotSeparated">
+<li>{#$stats[members]} Kullanıcı{if $stats.members != 1}{/if}</li>
+<li>{#$stats[threads]} Konu{if $stats[threads] != 1}{/if}</li>
+<li>{#$stats[posts]} Mesaj{if $stats[posts] != 1}{/if} (Günlük {#$stats[postsPerDay]} {if $stats[postsPerDay] != 1}{/if} Mesaj)</li>
+</ul>
+{if $stats[newestMember]}<p>En Yeni Kullanıcı: {user object=$stats[newestMember]}.</p>{/if}]]></item>
+	</category>
+	<category name="wbb.post">
+		<item name="wbb.post.add"><![CDATA[Konuyu Cevapla]]></item>
+		<item name="wbb.post.bbcode.type"><![CDATA[Mesaj]]></item>
+		<item name="wbb.post.button.add"><![CDATA[Cevapla]]></item>
+		<item name="wbb.post.closed"><![CDATA[Mesaj Düzenleme Engellendi]]></item>
+		<item name="wbb.post.condition.board"><![CDATA[Forum]]></item>
+		<item name="wbb.post.condition.state"><![CDATA[Durum]]></item>
+		<item name="wbb.post.condition.state.isClosed"><![CDATA[Kapalı]]></item>
+		<item name="wbb.post.condition.state.isClosed.error.conflict"><![CDATA[“Kapalı” ve “Açık” aynı anda seçilemez.]]></item>
+		<item name="wbb.post.condition.state.isDeleted"><![CDATA[Çöp Kutusunda]]></item>
+		<item name="wbb.post.condition.state.isDeleted.error.conflict"><![CDATA[“Çöp Kutusunda” ve “Çöp Kutusunda Değil” aynı anda seçilemez.]]></item>
+		<item name="wbb.post.condition.state.isDisabled"><![CDATA[Onay bekliyor]]></item>
+		<item name="wbb.post.condition.state.isDisabled.error.conflict"><![CDATA[“Onay bekliyor” ve “Onaylandı” aynı anda seçilemez.]]></item>
+		<item name="wbb.post.condition.state.isEnabled"><![CDATA[Onaylandı]]></item>
+		<item name="wbb.post.condition.state.isNotDeleted"><![CDATA[Çöp Kutusunda Değil]]></item>
+		<item name="wbb.post.condition.state.isOpen"><![CDATA[Açık]]></item>
+		<item name="wbb.post.condition.time"><![CDATA[Tarih]]></item>
+		<item name="wbb.post.condition.username"><![CDATA[Oluşturan]]></item>
+		<item name="wbb.post.condition.username.description"><![CDATA[Çoklu kullanıcılar virgül ile ayrılmalıdır.]]></item>
+		<item name="wbb.post.conditions"><![CDATA[Mesajlar]]></item>
+		<item name="wbb.post.copy.title"><![CDATA[Mesajları Kopyala]]></item>
+		<item name="wbb.post.delayedPublication"><![CDATA[Bu mesaj {@$post->enableTime|plainTime} tarihinde yayımlanacak.]]></item>
+		<item name="wbb.post.delete"><![CDATA[Mesaj Sil]]></item>
+		<item name="wbb.post.delete.sure"><![CDATA[Bu mesajı çöp kutusuna taşı]]></item>
+		<item name="wbb.post.deleteReason"><![CDATA[Sebep (isteğe bağlı)]]></item>
+		<item name="wbb.post.deleted"><![CDATA[Bu mesajı silen {if $post->userID == $post->getLogEntry()->userID}by the author themselves{else}by {if $post->getLogEntry()->userID} <a href="{link controller='User' id=$post->getLogEntry()->userID title=$post->getLogEntry()->username}{/link}" class="userLink" data-object-id="{@$post->getLogEntry()->userID}">{$post->getLogEntry()->username}</a>{else}{$post->getLogEntry()->username}{/if}{/if}{if $post->getLogEntry()->reason}: {$post->getLogEntry()->reason}{/if} ({@$post->getLogEntry()->time|time}).]]></item>
+		<item name="wbb.post.deleted.noData"><![CDATA[Mesaj silindi, ek bir bilgi yok.]]></item>
+		<item name="wbb.post.disablePost"><![CDATA[Ertelenmiş yayımlama]]></item>
+		<item name="wbb.post.disableThread"><![CDATA[Ertelenmiş yayımlama]]></item>
+		<item name="wbb.post.edit"><![CDATA[Mesaj Düzenle]]></item>
+		<item name="wbb.post.edit.close"><![CDATA[Düzenlemeyi Engelle]]></item>
+		<item name="wbb.post.edit.delete"><![CDATA[Sil]]></item>
+		<item name="wbb.post.edit.delete.confirmMessage"><![CDATA[Bu mesajı gerçekten silmek istiyor musunuz?]]></item>
+		<item name="wbb.post.edit.disable"><![CDATA[Etkisizleştir]]></item>
+		<item name="wbb.post.edit.enable"><![CDATA[Onay]]></item>
+		<item name="wbb.post.edit.merge"><![CDATA[Mesajları Birleştir]]></item>
+		<item name="wbb.post.edit.merge.description"><![CDATA[Mesajları sürükleyip bırakarak sıralayabilirsiniz ilk mesajı ya da birleştirme sırasını da belirleyebilirsiniz. Seçilen tüm mesajlar ilk mesaj ile birleştirilecek.]]></item>
+		<item name="wbb.post.edit.merge.reason"><![CDATA[{implode from=$usernames item='username'}{$username}{/implode} tarafından oluşturulan {if $postOrder|count == 1}bir mesaj{else}{#$postOrder|count} mesajlar{/if} bu mesaj ile birleştirildi.]]></item>
+		<item name="wbb.post.edit.merge.success"><![CDATA[Mesajlar birleştirildi]]></item>
+		<item name="wbb.post.edit.open"><![CDATA[Düzenlemeye İzin Ver]]></item>
+		<item name="wbb.post.edit.restore"><![CDATA[Geri Yükle]]></item>
+		<item name="wbb.post.edit.trash"><![CDATA[Çöp Kutusuna Taşı]]></item>
+		<item name="wbb.post.edit.trash.confirmMessage"><![CDATA[Bu mesajı gerçekten çöp kutusuna taşımak istiyor musunuz?]]></item>
+		<item name="wbb.post.edit.trash.reason"><![CDATA[Sebep (isteğe bağlı)]]></item>
+		<item name="wbb.post.editNote"><![CDATA[{if $post->editCount}Mesaj {if $post->editCount == 1}bir defa düzenlendi.{else}{#$post->editCount} defa düzenlendi.{/if} Son düzenleyen: {if $post->editorID}<a href="{link controller='User' id=$post->editorID}{/link}" class="userLink" data-object-id="{@$post->editorID}">{$post->editor}</a>{else}{$post->editor}{/if}{if $post->editReason}: {$post->editReason}{/if} ({@$post->lastEditTime|time}).{/if}{if $thread->canEditPost($post->getDecoratedObject()) && $post->hasOldVersions()}{if $post->editCount} — {/if}<a href="{link controller='EditHistory' objectType='com.woltlab.wbb.post' objectID=$post->postID}{/link}">Mesaj Geçmişini Görüntüle</a>{/if}]]></item>
+		<item name="wbb.post.editReason"><![CDATA[Düzenleme Sebebi (isteğe bağlı)]]></item>
+		<item name="wbb.post.enableTime"><![CDATA[Yayımlanma Tarihi]]></item>
+		<item name="wbb.post.enableTime.description"><![CDATA[Lütfen bir yayımlanma tarihi belirtiniz, Konu ya da mesaj o tarihe kadar etkisizleştirilmiş halde kalacak.]]></item>
+		<item name="wbb.post.enableTime.error.invalid"><![CDATA[Belirtilen tarih geçersiz, gelecekte bir tarih belirlemelisiniz.]]></item>
+		<item name="wbb.post.enableTime.now"><![CDATA[Şimdi yayımla]]></item>
+		<item name="wbb.post.enableTime.nowAndUpdateTime"><![CDATA[Yayın tarihini güncel saate ayarlayın]]></item>
+		<item name="wbb.post.error.floodControl"><![CDATA[{if $__wcf->getSession()->getPermission('user.board.floodControlTime') > 1}{#$__wcf->getSession()->getPermission('user.board.floodControlTime')} saniyeler{else}saniye{/if} içinde zaten bir mesaj yazdınız. Yeni bir mesaj yazmaya çalışmadan önce {#$lastPostTime+$__wcf->getSession()->getPermission('user.board.floodControlTime')-TIME_NOW} saniye{if ($lastPostTime+$__wcf->getSession()->getPermission('user.board.floodControlTime')-TIME_NOW) != 1}ler{/if} beklemelisiniz.]]></item>
+		<item name="wbb.post.hiddenForGuests"><![CDATA[Bu konular {if $numberOfHiddenPosts == 1} {else}{#$numberOfHiddenPosts} {/if}misafirler için gizlenmiş bir gönderi daha içeriyor, lütfen {if !REGISTER_DISABLED}<a href="{link controller='Register'}{/link}">Kayıt Olun</a> veya okumnaya devam etmek için{/if}<a href="{link controller='Login'}{/link}">Giriş Yapın</a>.]]></item>
+		<item name="wbb.post.ignoredUser"><![CDATA[{$__ignoredUser->username} adlı kullanıcının mesajı gizlendi.]]></item>
+		<item name="wbb.post.information"><![CDATA[Bilgi]]></item>
+		<item name="wbb.post.ipAddress"><![CDATA[IP: {$post->getIpAddress()}]]></item>
+		<item name="wbb.post.ipAddress.author"><![CDATA[{$post->username} diğer IP adresleri]]></item>
+		<item name="wbb.post.ipAddress.hostname"><![CDATA[Sunucu Adı]]></item>
+		<item name="wbb.post.ipAddress.otherUsers"><![CDATA[Bu {$post->getIpAddress()} IP adresini kullanan diğer kullanıcılar]]></item>
+		<item name="wbb.post.ipAddress.post"><![CDATA[{$post->username} IP adresi]]></item>
+		<item name="wbb.post.ipAddress.title"><![CDATA[IP adresi]]></item>
+		<item name="wbb.post.like.notification.message"><![CDATA[<strong>{$author}</strong> adlı kullanıcı <strong>{$thread->getTitle()}</strong> adlı konudaki mesajınıza tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="wbb.post.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} <strong>{$thread->getTitle()}</strong> adlı konudaki mesajınıza ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}) ile tepki verdi.]]></item>
+		<item name="wbb.post.like.notification.title"><![CDATA[Mesajınız beğenildi]]></item>
+		<item name="wbb.post.like.notification.title.stacked"><![CDATA[{#$count} kullanıcı mesajınıza tepki verdi]]></item>
+		<item name="wbb.post.mention.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> forumda <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a> <a href="{$post->getLink()}">{$thread->getTitle()}</a> başlıklı konuda sizden bahsetti{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
+		<item name="wbb.post.mention.notification.mail.plaintext"><![CDATA[{@$author}, forumda “{@$thread->getBoard()->getTitle()}” başlıklı konuda “{@$thread->getTitle()}” [URL:{@$post->getLink()}] başlıklı konuda sizden bahsetti{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}]]></item>
+		<item name="wbb.post.mention.notification.mail.title"><![CDATA["{@$userNotificationObject->getThread()->topic}" başlıklı konuda sizden bahsedildi.]]></item>
+		<item name="wbb.post.mention.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if} <strong>{$userNotificationObject->getThread()->getTitle()}</strong> adlı konuda sizden bahsetti.]]></item>
+		<item name="wbb.post.mention.notification.title"><![CDATA[Sizden bahsedildi]]></item>
+		<item name="wbb.post.message"><![CDATA[Mesaj]]></item>
+		<item name="wbb.post.message.error.minCharLength"><![CDATA[Mesaj çok kısa, en az {#$minCharLength} karakter içermeli.]]></item>
+		<item name="wbb.post.message.error.minWordCount"><![CDATA[Mesaj çok kısa, en az {#$minWordCount} kelime içermeli.]]></item>
+		<item name="wbb.post.moderation.disabledPost"><![CDATA[Bu mesajın diğerleri tarafından görülebilmesi için öncelikle bir moderatör tarafından onaylanması gerekmektedir.]]></item>
+		<item name="wbb.post.moderation.info"><![CDATA[Yeni mesajlar yayımlanmadan önce manuel olarak onaylanmalıdır, onaylanana kadar diğer kullanıcılar tarafından görülemez.]]></item>
+		<item name="wbb.post.moderation.redirect"><![CDATA[Mesajınız manuel onay gerektirmektedir, onaylanana kadar mesajı göremezsiniz.]]></item>
+		<item name="wbb.post.moveToNewThread"><![CDATA[Yeni Bir Konuya Taşı]]></item>
+		<item name="wbb.post.moveToNewThread.boardID"><![CDATA[Hedef Forum]]></item>
+		<item name="wbb.post.notification.mail.html"><![CDATA[<p>{@$authorList} adlı kullanıcı, forumdaki <a href="{$post->getLink()}">{$thread->getTitle()}</a> başlıklı konuya cevap verdi. Kategori: <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a>{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
+		<item name="wbb.post.notification.mail.plaintext"><![CDATA[{@$authorList} adlı kullanıcı, forumdaki “{@$thread->getTitle()}” başlıklı konuya cevap verdi. Kategori: [URL:{@$post->getLink()}] “{@$thread->getBoard()->getTitle()}”{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE && $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="wbb.post.notification.mail.title"><![CDATA[Konu: "{@$thread->getTitle()}" yeni cevap var.]]></item>
+		<item name="wbb.post.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong> adlı kullanıcı {else}Misafir biri{/if} <strong>{$userNotificationObject->getThread()->getTitle()}</strong> adlı konuyu cevapladı.]]></item>
+		<item name="wbb.post.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} adlı kullanıcı <strong>{$message->getThread()->getTitle()}</strong> adlı konuyu cevapladı.]]></item>
+		<item name="wbb.post.notification.moderate.close.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} <strong>{$post->getTitle()}</strong> mesajınızı kapattı.]]></item>
+		<item name="wbb.post.notification.moderate.close.notification.title"><![CDATA[Mesajınız kapatıldı]]></item>
+		<item name="wbb.post.notification.moderate.enable.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} <strong>{$post->getTitle()}</strong> mesajınızı etkinleştirdi.]]></item>
+		<item name="wbb.post.notification.moderate.enable.notification.title"><![CDATA[Mesajınız etkinleştirildi]]></item>
+		<item name="wbb.post.notification.moderate.move.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} <strong>{$post->getTitle()}</strong> mesajınızı taşıdı.]]></item>
+		<item name="wbb.post.notification.moderate.move.notification.title"><![CDATA[Mesajınız taşındı]]></item>
+		<item name="wbb.post.notification.moderate.trash.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} <strong>{$post->getTitle()}</strong>{if !$userNotificationObject->getDecoratedObject()->__get('reason')|empty} sebepten dolayı“{$userNotificationObject->getDecoratedObject()->reason|truncate:255:'…'}“{/if} mesajınız çöpe taşındı.]]></item>
+		<item name="wbb.post.notification.moderate.trash.notification.title"><![CDATA[Mesajınız çöpe taşındı]]></item>
+		<item name="wbb.post.notification.title"><![CDATA[İzlenen konuda yeni mesaj]]></item>
+		<item name="wbb.post.notification.title.stacked"><![CDATA[{#$timesTriggered} izlenen konuda yeni mesajlar]]></item>
+		<item name="wbb.post.official"><![CDATA[Resmi Gönderi]]></item>
+		<item name="wbb.post.official.first"><![CDATA[1. Resmi Gönderi]]></item>
+		<item name="wbb.post.official.next"><![CDATA[Sonraki Resmi Gönderi]]></item>
+		<item name="wbb.post.official.previous"><![CDATA[Önceki Resmi Gönderi]]></item>
+		<item name="wbb.post.option.closeThread"><![CDATA[Konuyu Kapat]]></item>
+		<item name="wbb.post.option.closeThread.description"><![CDATA[Mesajınız oluşturulduktan sonra konu kapatılacaktır.]]></item>
+		<item name="wbb.post.option.markAsDone"><![CDATA[Çözümlenmiş olarak işaretle]]></item>
+		<item name="wbb.post.option.markAsDone.description"><![CDATA[Mesaj oluşturulduktan sonra konu çözümlenmiş olarak işaretlenecektir.]]></item>
+		<item name="wbb.post.option.markAsOfficial"><![CDATA[Gönderiler “Resmi Gönderi” olarak işaretlensin mi?]]></item>
+		<item name="wbb.post.option.markAsOfficial.description"><![CDATA[Resmi gönderiler özel bir biçimlendirme ile işaretlenecek ve daha kolay bulunabilecektir.]]></item>
+		<item name="wbb.post.option.removeEditNote"><![CDATA[Düzenleme notunu kaldır]]></item>
+		<item name="wbb.post.option.removeEditNote.description"><![CDATA[“Mesajı düzenleyen …” notunu kaldırır.]]></item>
+		<item name="wbb.post.option.showEditNote"><![CDATA[Düzenleme notunu göster]]></item>
+		<item name="wbb.post.option.showEditNote.description"><![CDATA[“Mesajı düzenleyen …” notunun arkasına eklenir.]]></item>
+		<item name="wbb.post.posts"><![CDATA[Mesajlar]]></item>
+		<item name="wbb.post.previousPosts"><![CDATA[Önceki Mesaj{if $items != 1}lar{/if}]]></item>
+		<item name="wbb.post.quote.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> forumda <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a> <a href="{@$post->getLink()}">{$thread->getTitle()}</a> başlıklı konuda yanıt olarak gönderdiğiniz bir gönderiyi alıntıladı{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
+		<item name="wbb.post.quote.notification.mail.plaintext"><![CDATA[{@$author}, forumda “{@$thread->getBoard()->getTitle()}” başlıklı konuda “{@$thread->getTitle()}” [URL:{@$post->getLink()}] başlıklı yanıtta gönderilerinizden birini alıntıladı{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}]]></item>
+		<item name="wbb.post.quote.notification.mail.title"><![CDATA["{@$userNotificationObject->getThread()->topic}" başlıklı konuda alıntılandınız.]]></item>
+		<item name="wbb.post.quote.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if} <strong>{$userNotificationObject->getThread()->getTitle()}</strong> başlıklı konuda sizden alıntı yapıldı.]]></item>
+		<item name="wbb.post.quote.notification.title"><![CDATA[Sizden alıntı yapıldı]]></item>
+		<item name="wbb.post.reported"><![CDATA[Mesaj Rapor Edildi]]></item>
+		<item name="wbb.post.subject"><![CDATA[Konu]]></item>
+		<item name="wbb.post.subscribeThread"><![CDATA[Konuyu izle]]></item>
+		<item name="wbb.post.subscribeThread.description"><![CDATA[Bu konuyu izleme listenize ekler.]]></item>
+		<item name="wbb.post.summary"><![CDATA[Mesaj yazan {user object=$post->getUserProfile()} ({@$post->time|time}).]]></item>
+		<item name="wbb.post.userPosts"><![CDATA[{$user->username} Adlı Kullanıcının Mesajlarını Göster]]></item>
+	</category>
+	<category name="wbb.search">
+		<item name="wbb.search.boards"><![CDATA[Forumlarda Ara]]></item>
+		<item name="wbb.search.findAttachments"><![CDATA[Ek dosya içeren mesajları bul]]></item>
+		<item name="wbb.search.findFirstPosts"><![CDATA[İlk mesajları eşleştir]]></item>
+		<item name="wbb.search.findOfficialPosts"><![CDATA[Resmi gönderileri eşleştir]]></item>
+		<item name="wbb.search.findPolls"><![CDATA[Anket içeren mesajları bul]]></item>
+		<item name="wbb.search.findThreads"><![CDATA[Sonuçları konu olarak göster]]></item>
+		<item name="wbb.search.findThreadsWithBestAnswer"><![CDATA[En iyi yanıtı olan konuları eşleştirin]]></item>
+		<item name="wbb.search.searchedThread"><![CDATA[Sadece {anchor object=$searchedThread class='wbbTopicLink'} başlıklı konuyu ara]]></item>
+	</category>
+	<category name="wbb.thread">
+		<item name="wbb.thread.add"><![CDATA[Konu Oluştur]]></item>
+		<item name="wbb.thread.announcement"><![CDATA[Duyuru]]></item>
+		<item name="wbb.thread.article.joinTheDiscussion"><![CDATA[Tartışmaya katılın!]]></item>
+		<item name="wbb.thread.article.moreReplies"><![CDATA[{if $moreReplies == 1}Bir cevap daha{else}{#$moreReplies} daha fazla cevaplar{/if}]]></item>
+		<item name="wbb.thread.article.replies"><![CDATA[{#$replies} {if $replies == 1}Cevapla{else}Cevaplar{/if}]]></item>
+		<item name="wbb.thread.article.replies.title"><![CDATA[Cevaplar]]></item>
+		<item name="wbb.thread.article.reply"><![CDATA[Bir cevap yaz…]]></item>
+		<item name="wbb.thread.articleThread.info"><![CDATA[{#$articleThread->replies} {if $articleThread->replies == 1}cevap{else}cevaplar{/if}{if $articleThread->replies > 0}, en son: {@$articleThread->lastPostTime|time}{/if}]]></item>
+		<item name="wbb.thread.articleThread.message"><![CDATA[<p>Makalenin tartışılması{$article->username}<br>[wsa]{$article->articleID}[/wsa]:</p>
+<woltlab-quote>{@$articleContent->getFormattedTeaser()}</woltlab-quote>]]></item>
+		<item name="wbb.thread.articleThread.subject"><![CDATA[{@$articleContent->getTitle()}]]></item>
+		<item name="wbb.thread.attachments"><![CDATA[Konu {#$thread->attachments} adet ek dosya{if $thread->attachments != 1}lar{/if} içermektedir]]></item>
+		<item name="wbb.thread.bbcode.type"><![CDATA[Konu]]></item>
+		<item name="wbb.thread.bestAnswer"><![CDATA[En İyi Cevap]]></item>
+		<item name="wbb.thread.boxList.description.activity"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevaplar{/if}]]></item>
+		<item name="wbb.thread.boxList.description.cumulativeLikes"><![CDATA[{include file='__topReaction' cachedReactions=$boxThread->cachedReactions render='full'}]]></item>
+		<item name="wbb.thread.boxList.description.hotness"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevaplar{/if}, {#$boxThread->views} Görüntülenme{if $boxThread->views != 1}s{/if}, {$boxThread->time|dateDiff}]]></item>
+		<item name="wbb.thread.boxList.description.lastPostTime"><![CDATA[{user object=$boxThread->getLastPosterProfile() tabindex='-1'} <span class="separatorLeft">{@$boxThread->lastPostTime|time}</span>]]></item>
+		<item name="wbb.thread.boxList.description.replies"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevaplar{/if}, son: {@$boxThread->lastPostTime|time}]]></item>
+		<item name="wbb.thread.boxList.description.views"><![CDATA[{#$boxThread->views} Görüntülenme{if $boxThread->views != 1}{/if}]]></item>
+		<item name="wbb.thread.button.add"><![CDATA[Yeni Konu]]></item>
+		<item name="wbb.thread.button.jumpToArticleThread"><![CDATA[Tartışma Konusu]]></item>
+		<item name="wbb.thread.closed"><![CDATA[Kapalı]]></item>
+		<item name="wbb.thread.closedForNewReplies"><![CDATA[Bu konu bir moderatör tarafından kapatıldı.]]></item>
+		<item name="wbb.thread.closedThread"><![CDATA[Kapatılmış bir konuyu cevaplamak üzeresiniz.]]></item>
+		<item name="wbb.thread.condition.age"><![CDATA[Yaş]]></item>
+		<item name="wbb.thread.condition.age.description"><![CDATA[İleti dizisinin oluşturulmasından bu yana geçen gün sayısı]]></item>
+		<item name="wbb.thread.condition.board"><![CDATA[Forum]]></item>
+		<item name="wbb.thread.condition.currentBoard"><![CDATA[Şu Anki Foruma Kısıtla]]></item>
+		<item name="wbb.thread.condition.currentBoard.description"><![CDATA[Eğer sayfa belirli bir foruma aitse sadece bu forumdaki konular seçilecektir.]]></item>
+		<item name="wbb.thread.condition.displayMode"><![CDATA[Görüntüleme Modu]]></item>
+		<item name="wbb.thread.condition.displayMode.description"><![CDATA[Seçilen görüntüleme modu eğer konular yan menünde görüntülenmeyecekse uygundur.]]></item>
+		<item name="wbb.thread.condition.displayMode.firstPostExcerpt"><![CDATA[İlk Mesaj Ön İzleme]]></item>
+		<item name="wbb.thread.condition.displayMode.table"><![CDATA[Tablo]]></item>
+		<item name="wbb.thread.condition.isUnread.lastPostTime"><![CDATA[Sadece en son mesajı okunmayan konular]]></item>
+		<item name="wbb.thread.condition.isUnread.time"><![CDATA[Sadece ilk mesajı okunmayan konular]]></item>
+		<item name="wbb.thread.condition.lastPostAge"><![CDATA[Son Gönderinin Yaşı]]></item>
+		<item name="wbb.thread.condition.lastPostAge.description"><![CDATA[Son gönderiden bu yana geçen gün sayısı.]]></item>
+		<item name="wbb.thread.condition.lastPostTime"><![CDATA[En Son Cevap]]></item>
+		<item name="wbb.thread.condition.replies"><![CDATA[Cevaplar]]></item>
+		<item name="wbb.thread.condition.state"><![CDATA[Durum]]></item>
+		<item name="wbb.thread.condition.state.isAnnouncement"><![CDATA[Duyuru]]></item>
+		<item name="wbb.thread.condition.state.isAnnouncement.error.conflict.sticky"><![CDATA[“Duyuru” ve “Sabit” aynı anda seçilemez.]]></item>
+		<item name="wbb.thread.condition.state.isClosed"><![CDATA[Kapalı]]></item>
+		<item name="wbb.thread.condition.state.isClosed.error.conflict"><![CDATA[“Kapalı” ve “Açık” aynı anda seçilemez.]]></item>
+		<item name="wbb.thread.condition.state.isDeleted"><![CDATA[Çöp Kutusunda]]></item>
+		<item name="wbb.thread.condition.state.isDeleted.error.conflict"><![CDATA[“Çöp Kutusunda” ve “Çöp Kutusunda Değil” aynı anda seçilemez.]]></item>
+		<item name="wbb.thread.condition.state.isDisabled"><![CDATA[Onay Bekliyor]]></item>
+		<item name="wbb.thread.condition.state.isDisabled.error.conflict"><![CDATA[“Onay Bekliyor” ve “Onaylanmış” aynı anda seçilemez.]]></item>
+		<item name="wbb.thread.condition.state.isDone"><![CDATA[Çözümlenmiş]]></item>
+		<item name="wbb.thread.condition.state.isDone.error.conflict"><![CDATA[“Çözümlenmiş” ve “Çözümlenmemiş” aynı anda seçilemez.]]></item>
+		<item name="wbb.thread.condition.state.isEnabled"><![CDATA[Onaylanmış]]></item>
+		<item name="wbb.thread.condition.state.isLink"><![CDATA[Bağlantı]]></item>
+		<item name="wbb.thread.condition.state.isLink.error.conflict"><![CDATA[“Bağlantı” ve “Bağlantı Değil” aynı anda seçilemez.]]></item>
+		<item name="wbb.thread.condition.state.isNoLink"><![CDATA[Bağlantı Değil]]></item>
+		<item name="wbb.thread.condition.state.isNormal"><![CDATA[Sıradan Konu]]></item>
+		<item name="wbb.thread.condition.state.isNormal.error.conflict.isAnnouncement"><![CDATA[“Duyuru” ve “Sıradan Konu” aynı anda seçilemez.]]></item>
+		<item name="wbb.thread.condition.state.isNormal.error.conflict.isSticky"><![CDATA[“Sabit” ve “Sıradan Konu” aynı anda seçilemez.]]></item>
+		<item name="wbb.thread.condition.state.isNotDeleted"><![CDATA[Çöp Kutusunda Değil]]></item>
+		<item name="wbb.thread.condition.state.isOpen"><![CDATA[Açık]]></item>
+		<item name="wbb.thread.condition.state.isSticky"><![CDATA[Sabit]]></item>
+		<item name="wbb.thread.condition.state.isUndone"><![CDATA[Çözümlenmemiş]]></item>
+		<item name="wbb.thread.condition.subscription"><![CDATA[Abonelik]]></item>
+		<item name="wbb.thread.condition.subscription.boardOrThreadSubscription"><![CDATA[Abone olunmuş konular ve abone olunmuş forumlardaki  konular]]></item>
+		<item name="wbb.thread.condition.subscription.boardSubscription"><![CDATA[Yalnızca abone olunan forumlardaki konular]]></item>
+		<item name="wbb.thread.condition.subscription.threadSubscription"><![CDATA[Yalnızca abone olunan konular]]></item>
+		<item name="wbb.thread.condition.time"><![CDATA[Tarih]]></item>
+		<item name="wbb.thread.condition.username"><![CDATA[Oluşturan]]></item>
+		<item name="wbb.thread.condition.username.description"><![CDATA[Çoklu kullanıcılar virgül ile ayrılmalıdır.]]></item>
+		<item name="wbb.thread.condition.views"><![CDATA[Görüntülenme]]></item>
+		<item name="wbb.thread.conditions"><![CDATA[Konu]]></item>
+		<item name="wbb.thread.confirmDelete"><![CDATA[Bu konuyu gerçekten silmek istiyor musunuz? Bu işlem geri döndürülemez.]]></item>
+		<item name="wbb.thread.confirmTrash"><![CDATA[Bu konuyu gerçekten çöp kutusuna taşımak istiyor musunuz?]]></item>
+		<item name="wbb.thread.confirmTrash.reason"><![CDATA[Sebep (isteğe bağlı)]]></item>
+		<item name="wbb.thread.copy.title"><![CDATA[Konu Kopyala ({$item}, toplam {$count})]]></item>
+		<item name="wbb.thread.cumulativeLikes"><![CDATA[Tepkiler]]></item>
+		<item name="wbb.thread.delayedPublication"><![CDATA[Bu konu {@$thread->enableTime|plainTime} tarihinde yayınlanacak.]]></item>
+		<item name="wbb.thread.done"><![CDATA[Konu çözümlenmiş olarak işaretli]]></item>
+		<item name="wbb.thread.edit"><![CDATA[Konu Düzenle]]></item>
+		<item name="wbb.thread.enableTime"><![CDATA[Yayın tarihi]]></item>
+		<item name="wbb.thread.enableTime.description"><![CDATA[Lütfen bir yayınlama tarihi belirtin, konu ve tüm mesajlar o zamana kadar devre dışı kalacaktır.]]></item>
+		<item name="wbb.thread.enableTime.error.invalid"><![CDATA[Belirtilen tarih geçersiz, ileri bir tarih seçmelisiniz.]]></item>
+		<item name="wbb.thread.enableTime.now"><![CDATA[Şimdi yayınlayın]]></item>
+		<item name="wbb.thread.enableTime.nowAndUpdateTime"><![CDATA[Yayın tarihini güncel saate ayarlayın]]></item>
+		<item name="wbb.thread.filter"><![CDATA[Filtrele]]></item>
+		<item name="wbb.thread.goToBestAnswer"><![CDATA[En İyi Yanıta Git]]></item>
+		<item name="wbb.thread.gotoFirstNewPost"><![CDATA[İlk Okunmamış Mesaja Git]]></item>
+		<item name="wbb.thread.gotoLastPost"><![CDATA[En Son Mesaja Git]]></item>
+		<item name="wbb.thread.inlineSimilarThreads"><![CDATA[Konu başlığınızla eşleşen şu konular bulundu:]]></item>
+		<item name="wbb.thread.labeledThreads"><![CDATA[“{$label->label|language}” ile etikenlenmiş konular]]></item>
+		<item name="wbb.thread.languageFilter"><![CDATA[“{$thread->getLanguage()->languageName}” dili forumları]]></item>
+		<item name="wbb.thread.lastPostTime"><![CDATA[Son Cevap]]></item>
+		<item name="wbb.thread.markAsBestAnswer"><![CDATA[“En İyi Cevap” olarak işaretle]]></item>
+		<item name="wbb.thread.markAsBestAnswer.confirmMessage"><![CDATA[Bu gönderiyi gerçekten “En İyi Cevap“ olarak işaretlemek istiyor musunuz?]]></item>
+		<item name="wbb.thread.markAsRead.doubleClick"><![CDATA[Bu Konuyu Okundu İşaretlemek İçin Çift Tıklayın]]></item>
+		<item name="wbb.thread.moderation.disabledThread"><![CDATA[Bu konu, bir moderatör tarafından onaylanana kadar başkaları tarafından erişilemez.]]></item>
+		<item name="wbb.thread.moderation.info"><![CDATA[Yeni oluşturulan konular, bir moderatör tarafından onaylanana kadar başkaları tarafından erişilemez durumda kalacaktır.]]></item>
+		<item name="wbb.thread.moderation.redirect"><![CDATA[Konunuz onaylandıktan sonra görüntülenecektir.]]></item>
+		<item name="wbb.thread.modification.log.thread.hide"><![CDATA[Günlük girişini gizle]]></item>
+		<item name="wbb.thread.modification.log.thread.hide.confirmMessage"><![CDATA[Günlük girişini gerçekten gizlemek istiyor musunuz?]]></item>
+		<item name="wbb.thread.moved"><![CDATA[Taşınmış]]></item>
+		<item name="wbb.thread.newPosts"><![CDATA[{literal}Bu konuda {if $newPostsCount == 1}bir yeni mesaj{else}{#$newPostsCount} yeni mesajlar{/if} var.{/literal}]]></item>
+		<item name="wbb.thread.newPosts.nextPage"><![CDATA[{if $count == 1}bir yeni gönderi{else}{#$count} yeni gönderiyi{/if} göster (sonraki sayfa)]]></item>
+		<item name="wbb.thread.noPosts"><![CDATA[Bu konu artık herhangi bir gönderi içermiyor. Bu konuyu silebilirsiniz.]]></item>
+		<item name="wbb.thread.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> forumda <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a> <a href="{$thread->getLink()}">{$thread->getTitle()}</a> başlıklı konuyu oluşturdu{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
+		<item name="wbb.thread.notification.mail.plaintext"><![CDATA[{@$author}, forumda “{@$thread->getBoard()->getTitle()}” başlıklı konuda “{@$thread->getTitle()}” [URL:{@$thread->getLink()}] başlıklı konuyu oluşturdu{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}]]></item>
+		<item name="wbb.thread.notification.mail.title"><![CDATA[Yeni konu "{@$thread->getTitle()}"]]></item>
+		<item name="wbb.thread.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if} <strong>{$userNotificationObject->getTitle()}</strong> adlı forumda <strong>{$userNotificationObject->getBoard()->getTitle()}</strong> başlıklı bir konu yazdı.]]></item>
+		<item name="wbb.thread.notification.moderate.changeTopic.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} <strong>{$userNotificationObject->getDecoratedObject()->oldTopic}</strong> konunuzun başlığı değiştirildi <strong>{$userNotificationObject->getDecoratedObject()->newTopic}</strong>.]]></item>
+		<item name="wbb.thread.notification.moderate.changeTopic.notification.title"><![CDATA[Konunuzun başlığı değiştirildi]]></item>
+		<item name="wbb.thread.notification.moderate.close.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} <strong>{$thread->getTitle()}</strong> konunuzu kapattı.]]></item>
+		<item name="wbb.thread.notification.moderate.close.notification.title"><![CDATA[Konunuz kapatıldı]]></item>
+		<item name="wbb.thread.notification.moderate.enable.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} <strong>{$thread->getTitle()}</strong> konunuzu etkinleştirdi.]]></item>
+		<item name="wbb.thread.notification.moderate.enable.notification.title"><![CDATA[Konunuz etkinleştirildi]]></item>
+		<item name="wbb.thread.notification.moderate.move.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} <strong>{$thread->getTitle()}</strong> konunuzu taşıdı.]]></item>
+		<item name="wbb.thread.notification.moderate.move.notification.title"><![CDATA[Konunuz taşındı]]></item>
+		<item name="wbb.thread.notification.moderate.open.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} <strong>{$thread->getTitle()}</strong> konunuzu açtı.]]></item>
+		<item name="wbb.thread.notification.moderate.open.notification.title"><![CDATA[Konunuz açıldı]]></item>
+		<item name="wbb.thread.notification.moderate.restore.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} “{$thread->getTitle()}” konunuzu geri yükledi.]]></item>
+		<item name="wbb.thread.notification.moderate.restore.notification.title"><![CDATA[Konunuz açıldı]]></item>
+		<item name="wbb.thread.notification.moderate.setLabel.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} {if $userNotificationObject->getDecoratedObject()->label == null} <span class="badge label{if $userNotificationObject->getDecoratedObject()->oldLabel->cssClassName} {$userNotificationObject->getDecoratedObject()->oldLabel->cssClassName}{/if}">{$userNotificationObject->getDecoratedObject()->oldLabel->getTitle()}</span> konunuzdan <strong>{$thread->getTitle()} etiketi kaldırdı</strong>.{elseif $userNotificationObject->getDecoratedObject()->oldLabel == null}has added the label <span class="badge label{if $userNotificationObject->getDecoratedObject()->label->cssClassName} {$userNotificationObject->getDecoratedObject()->label->cssClassName}{/if}">{$userNotificationObject->getDecoratedObject()->label->getTitle()}</span> konunuza <strong>{$thread->getTitle()} etiket ekledi</strong>.{else}etiketi değiştirdi <span class="badge label{if $userNotificationObject->getDecoratedObject()->oldLabel->cssClassName} {$userNotificationObject->getDecoratedObject()->oldLabel->cssClassName}{/if}">{$userNotificationObject->getDecoratedObject()->oldLabel->getTitle()}</span> <span class="badge label{if $userNotificationObject->getDecoratedObject()->label->cssClassName} {$userNotificationObject->getDecoratedObject()->label->cssClassName}{/if}">{$userNotificationObject->getDecoratedObject()->label->getTitle()}</span> in your thread <strong>{$thread->getTitle()}</strong>.{/if}]]></item>
+		<item name="wbb.thread.notification.moderate.setLabel.notification.title"><![CDATA[{if $userNotificationObject->getDecoratedObject()->label == null} bir etiket konunuzdan kaldırıldı {elseif $userNotificationObject->getDecoratedObject()->oldLabel != null}konunuz değiştirildi{else}konunuza eklendi{/if}]]></item>
+		<item name="wbb.thread.notification.moderate.trash.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir moderatör{/if} “{$thread->getTitle()}”{if !$userNotificationObject->getDecoratedObject()->__get('reason')|empty} bu sebepten “{$userNotificationObject->getDecoratedObject()->reason|truncate:255:'…'}”{/if} konunuzu sildi.]]></item>
+		<item name="wbb.thread.notification.moderate.trash.notification.title"><![CDATA[Konunuz çöpe atıldı]]></item>
+		<item name="wbb.thread.notification.title"><![CDATA[İzlenen Forumda Yeni Konu]]></item>
+		<item name="wbb.thread.oldThread"><![CDATA[Son cevap {#WBB_REPLY_OLD_THREAD_WARNING} günden daha önce yazılmış, konu ve içeriği büyük ihtimalle eski.{if $board->canStartThread()} Bu konuya bir cevap yazmak yerine <a href="{link application='wbb' controller='ThreadAdd' id=$thread->boardID}{/link}">yeni konu</a> oluşturmanızı öneririz.{/if}]]></item>
+		<item name="wbb.thread.ownPosts"><![CDATA[Kendi mesajlarımı içeren konu]]></item>
+		<item name="wbb.thread.polls"><![CDATA[Konu {#$thread->polls} anket{if $thread->polls != 1}ler{/if} içeriyor]]></item>
+		<item name="wbb.thread.replies"><![CDATA[Cevaplar]]></item>
+		<item name="wbb.thread.reply"><![CDATA[Bu konuyu cevapla…]]></item>
+		<item name="wbb.thread.reported"><![CDATA[Konu Raporlanmış]]></item>
+		<item name="wbb.thread.similarThreads"><![CDATA[Benzer Konular]]></item>
+		<item name="wbb.thread.sortField.activity"><![CDATA[Etkinlik]]></item>
+		<item name="wbb.thread.sortField.cumulativeLikes"><![CDATA[Tepkiler]]></item>
+		<item name="wbb.thread.sortField.hotness"><![CDATA[Güncellik]]></item>
+		<item name="wbb.thread.sortField.lastPostTime"><![CDATA[En Son Cevap]]></item>
+		<item name="wbb.thread.sortField.replies"><![CDATA[Cevaplar]]></item>
+		<item name="wbb.thread.sortField.time"><![CDATA[Tarih]]></item>
+		<item name="wbb.thread.sortField.topic"><![CDATA[Konu]]></item>
+		<item name="wbb.thread.sortField.username"><![CDATA[Yazar]]></item>
+		<item name="wbb.thread.sortField.views"><![CDATA[Görüntülenme]]></item>
+		<item name="wbb.thread.status.ignoring"><![CDATA[Yoksayıldı]]></item>
+		<item name="wbb.thread.status.ignoring.description"><![CDATA[Konu gizlenmiştir ve herhangi bir bildirim almayacaksınız.]]></item>
+		<item name="wbb.thread.status.normal"><![CDATA[Abone olunmamış]]></item>
+		<item name="wbb.thread.status.normal.description"><![CDATA[Bahsetmeler, alıntılar ve tepkiler için bildirimler almazsınız.]]></item>
+		<item name="wbb.thread.status.watching"><![CDATA[Abone olundu]]></item>
+		<item name="wbb.thread.status.watching.description"><![CDATA[Yeni gönderiler, bahsedenler, alıntılar ve tepkiler için bildirimler alın.]]></item>
+		<item name="wbb.thread.sticky"><![CDATA[Sabit]]></item>
+		<item name="wbb.thread.subscribed"><![CDATA[Abone Olunan Konu]]></item>
+		<item name="wbb.thread.threadForm.title"><![CDATA[Ek Bilgi]]></item>
+		<item name="wbb.thread.threads"><![CDATA[Konular]]></item>
+		<item name="wbb.thread.time"><![CDATA[Tarih]]></item>
+		<item name="wbb.thread.topic"><![CDATA[Başlık]]></item>
+		<item name="wbb.thread.type"><![CDATA[Konu Durumu]]></item>
+		<item name="wbb.thread.type.announcement"><![CDATA[Duyuru]]></item>
+		<item name="wbb.thread.type.boardIDs"><![CDATA[Duyuru İçin Forumlar]]></item>
+		<item name="wbb.thread.type.default"><![CDATA[Varsayılan]]></item>
+		<item name="wbb.thread.type.sticky"><![CDATA[Sabit]]></item>
+		<item name="wbb.thread.undone"><![CDATA[Konu çözümlenmemiş]]></item>
+		<item name="wbb.thread.unmarkAsBestAnswer"><![CDATA["En İyi Cevap" işaretini kaldırın]]></item>
+		<item name="wbb.thread.userThreads"><![CDATA[{$user->username} göre konular]]></item>
+		<item name="wbb.thread.username"><![CDATA[Yazar]]></item>
+		<item name="wbb.thread.usersOnline"><![CDATA[Bu Konuyu Görüntüleyen Kullanıcılar]]></item>
+		<item name="wbb.thread.views"><![CDATA[Görüntüleme]]></item>
+		<item name="wbb.thread.watchedThreads.stopWatchingAll"><![CDATA[Tümünü izlemeyi bırak]]></item>
+		<item name="wbb.thread.watchedThreads.stopWatchingAll.confirmMessage"><![CDATA[Tüm konuları izlemeyi gerçekten bırakmak istiyor musunuz?]]></item>
+		<item name="wbb.thread.watchedThreads.stopWatchingMarked"><![CDATA[İşaretlenmiş konuları izlemeyi bırak{if $count > 1} ({#$count}){/if}]]></item>
+		<item name="wbb.thread.watchedThreads.stopWatchingMarked.confirmMessage"><![CDATA[İşaretlenmiş konuları izlemeyi gerçekten bırakmak istiyor musunuz?]]></item>
+	</category>
+	<category name="wbb.thread.edit">
+		<item name="wbb.thread.edit.advanced"><![CDATA[Seçenekler]]></item>
+		<item name="wbb.thread.edit.assignLabel"><![CDATA[Etiketleri Belirle]]></item>
+		<item name="wbb.thread.edit.close"><![CDATA[Kapat]]></item>
+		<item name="wbb.thread.edit.delete"><![CDATA[Sil]]></item>
+		<item name="wbb.thread.edit.disable"><![CDATA[Etkisizleştir]]></item>
+		<item name="wbb.thread.edit.done"><![CDATA[Çözümlenmiş Olarak İşaretle]]></item>
+		<item name="wbb.thread.edit.enable"><![CDATA[Onayla]]></item>
+		<item name="wbb.thread.edit.markPosts"><![CDATA[Tüm Gönderileri İşaretle]]></item>
+		<item name="wbb.thread.edit.markThread"><![CDATA[Konuyu İşaretle]]></item>
+		<item name="wbb.thread.edit.merge"><![CDATA[Konuları Birleştir]]></item>
+		<item name="wbb.thread.edit.merge.description"><![CDATA[Lütfen mesaj birleştirme işlemi için hedef konuyu seçiniz.]]></item>
+		<item name="wbb.thread.edit.merge.success"><![CDATA[Konular birleştirildi]]></item>
+		<item name="wbb.thread.edit.move"><![CDATA[Taşı]]></item>
+		<item name="wbb.thread.edit.moveDestination"><![CDATA[Hedef Forum]]></item>
+		<item name="wbb.thread.edit.moveDestination.error.equalsOrigin"><![CDATA[Hedef ve kaynak forum aynı.]]></item>
+		<item name="wbb.thread.edit.moveNotice"><![CDATA[Yönlendirme Bildirimi Göster]]></item>
+		<item name="wbb.thread.edit.moveNotice.description"><![CDATA[Taşınan öğenin bulunduğu önceki bölümde bir bilgilendirme notu gösterilir]]></item>
+		<item name="wbb.thread.edit.moveSource"><![CDATA[Kaynak Forumu]]></item>
+		<item name="wbb.thread.edit.moveSource.multiple"><![CDATA[{plural value=$count 1='And one other forum' other='And # other forums'}]]></item>
+		<item name="wbb.thread.edit.moveThreads"><![CDATA[Konuları Taşı]]></item>
+		<item name="wbb.thread.edit.open"><![CDATA[Aç]]></item>
+		<item name="wbb.thread.edit.removeLink"><![CDATA[Yönlendirme Bildimini Kaldır]]></item>
+		<item name="wbb.thread.edit.restore"><![CDATA[Geri Yükle]]></item>
+		<item name="wbb.thread.edit.scrape"><![CDATA[Sabitleme]]></item>
+		<item name="wbb.thread.edit.sticky"><![CDATA[Sabitle]]></item>
+		<item name="wbb.thread.edit.trash"><![CDATA[Çöp Kutusuna Taşı]]></item>
+		<item name="wbb.thread.edit.undone"><![CDATA[Çözümlenmiş Olarak İşaretle]]></item>
+		<item name="wbb.thread.edit.unmarkThread"><![CDATA[Konu İşaretini Kaldır]]></item>
+	</category>
+	<category name="wbb.thread.log">
+		<item name="wbb.thread.log"><![CDATA[İşlem Geçmişi]]></item>
+		<item name="wbb.thread.log.post.close"><![CDATA[<a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> öğesinin düzenmesi <a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-object-id="{@$post->userID}">{$post->username}</a> tarafından engellendi.]]></item>
+		<item name="wbb.thread.log.post.delete"><![CDATA[Bir mesaj sildi.]]></item>
+		<item name="wbb.thread.log.post.disable"><![CDATA[<a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> öğesi <a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-object-id="{@$post->userID}">{$post->username}</a> tarafından etkisizleştirildi.]]></item>
+		<item name="wbb.thread.log.post.edit"><![CDATA[İçeriği düzenledi: <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> İçerik sahibi: <a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-object-id="{@$post->userID}">{$post->username}</a>.]]></item>
+		<item name="wbb.thread.log.post.enable"><![CDATA[<a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> öğesi <a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-object-id="{@$post->userID}">{$post->username}</a> tarafınca onaylandı.]]></item>
+		<item name="wbb.thread.log.post.merge"><![CDATA[{implode from=$additionalData[mergedPostAuthors] item='username'}{$username}{/implode} tarafından oluşturulan {if $additionalData[mergedPostCount] == 1}bir mesaj{else}{#$additionalData[mergedPostCount]} mesajlar{/if} <a href="{link controller='User' id={$post->userID title=$post->username}{/link}" class="userLink" data-object-id="{@$post->userID}">{$post->username}</a> tarafından oluşturulan şu mesajla <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> birleştirildi.]]></item>
+		<item name="wbb.thread.log.post.move"><![CDATA[<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-object-id="{@$post->userID}">{$post->username}</a> tarafından yazılan <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">mesaj{if $post->subject} “{$post->subject}”{/if}</a> <a href="{link controller='Thread' application='wbb' id=$additionalData[oldThreadID] title=$additionalData[oldThreadTopic]}{/link}" class="wbbTopicLink" data-object-id="{@$additionalData[oldThreadID]}">{$additionalData[oldThreadTopic]}</a> başlıklı konuya taşındı.]]></item>
+		<item name="wbb.thread.log.post.open"><![CDATA[<a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> öğesinin düzenlenmesine <a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-object-id="{@$post->userID}">{$post->username}</a> tarafınca izin verildi.]]></item>
+		<item name="wbb.thread.log.post.restore"><![CDATA[<a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> öğesi <a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-object-id="{@$post->userID}">{$post->username}</a> tarafınca geri yüklendi.]]></item>
+		<item name="wbb.thread.log.post.trash"><![CDATA[<a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> öğesi <a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-object-id="{@$post->userID}">{$post->username}</a> tarafınca çöp kutusuna taşındı{if $additionalData[reason]}: “{$additionalData[reason]}”{/if}.]]></item>
+		<item name="wbb.thread.log.thread.changeTopic"><![CDATA[Konunun başlığı değiştirildi. Eksi Başlık: “{$additionalData[oldTopic]}” Yeni Başlık: “{$additionalData[newTopic]}”.]]></item>
+		<item name="wbb.thread.log.thread.close"><![CDATA[Konuyu kapattı.]]></item>
+		<item name="wbb.thread.log.thread.delete"><![CDATA[Konuyu sildi.]]></item>
+		<item name="wbb.thread.log.thread.disable"><![CDATA[Konuyu etkisizleştirdi.]]></item>
+		<item name="wbb.thread.log.thread.done"><![CDATA[Konu çözülmüş olarak işaretlendi.]]></item>
+		<item name="wbb.thread.log.thread.enable"><![CDATA[Konuyu onayladı.]]></item>
+		<item name="wbb.thread.log.thread.markAsBestAnswer"><![CDATA[İlgili <a href="{link application='wbb' controller='Thread' postID=$additionalData[postID]}#post{$additionalData[postID]}{/link}">mesajı</a> en iyi cevap olarak seçti.]]></item>
+		<item name="wbb.thread.log.thread.merge"><![CDATA[Konu{if $additionalData[mergedThreads]|count > 1}lar{/if} {implode from=$additionalData[mergedThreads] item='mergedThread'}“{$mergedThread}”{/implode} birleştirildi]]></item>
+		<item name="wbb.thread.log.thread.move"><![CDATA[Konuyu bu forumdan <a href="{link application='wbb' controller='Board' id=$additionalData[oldBoard][boardID] title=$additionalData[oldBoard][title]|language}{/link}">{$additionalData[oldBoard][title]|language}</a> bu foruma <a href="{link application='wbb' controller='Board' id=$additionalData[newBoard][boardID] title=$additionalData[newBoard][title]|language}{/link}">{$additionalData[newBoard][title]|language}</a> taşıdı.]]></item>
+		<item name="wbb.thread.log.thread.open"><![CDATA[Konuyu açtı.]]></item>
+		<item name="wbb.thread.log.thread.restore"><![CDATA[Konuyu geri yükledi.]]></item>
+		<item name="wbb.thread.log.thread.scrape"><![CDATA[Konunun sabit özelliğini kaldırdı, konu artık sabit değil.]]></item>
+		<item name="wbb.thread.log.thread.setAsAnnouncement"><![CDATA[Konu durumunu duyuruya çevirdi]]></item>
+		<item name="wbb.thread.log.thread.setLabel"><![CDATA[{if $additionalData[label]|empty}Etiket Kaldırıldı <span class="badge label{if $additionalData[oldLabel]->cssClassName} {$additionalData[oldLabel]->cssClassName}{/if}">{$additionalData[oldLabel]->getTitle()}</span>{elseif $additionalData[oldLabel]|empty}Etiket eklendi <span class="badge label{if $additionalData[label]->cssClassName} {$additionalData[label]->cssClassName}{/if}">{$additionalData[label]->getTitle()}</span>{else}Etiket Ayarlandı <span class="badge label{if $additionalData[oldLabel]->cssClassName} {$additionalData[oldLabel]->cssClassName}{/if}">{$additionalData[oldLabel]->label|language}</span> yenisi eklendi <span class="badge label{if $additionalData[label]->cssClassName} {$additionalData[label]->cssClassName}{/if}">{$additionalData[label]->getTitle()}</span>{/if}]]></item>
+		<item name="wbb.thread.log.thread.sticky"><![CDATA[Konuyu sabitledi.]]></item>
+		<item name="wbb.thread.log.thread.trash"><![CDATA[Konuyu çöp kutusuna taşıdı{if $additionalData[reason]}: {$additionalData[reason]} {/if}.]]></item>
+		<item name="wbb.thread.log.thread.trash.summary"><![CDATA[Konu şu kullanıcı tarafından silindi {if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-object-id="{@$userID}">{$username}</a>{else}{$username}{/if}{if $additionalData[reason]}: {$additionalData[reason]}{/if} ({@$time|time}).]]></item>
+		<item name="wbb.thread.log.thread.undone"><![CDATA[Konuyu çözümlenmemiş olarak işaretledi.]]></item>
+		<item name="wbb.thread.log.thread.unsetAsAnnouncement"><![CDATA[Duyuru olan konu durumunu kaldırdı.]]></item>
+	</category>
+	<category name="wcf.acl.option">
+		<item name="wcf.acl.option.category.com.woltlab.wbb.board.mod.post"><![CDATA[Mesaj]]></item>
+		<item name="wcf.acl.option.category.com.woltlab.wbb.board.mod.thread"><![CDATA[Konu]]></item>
+		<item name="wcf.acl.option.category.com.woltlab.wbb.board.user.board"><![CDATA[Forumlar]]></item>
+		<item name="wcf.acl.option.category.com.woltlab.wbb.board.user.post"><![CDATA[Mesajlar]]></item>
+		<item name="wcf.acl.option.category.com.woltlab.wbb.board.user.thread"><![CDATA[Konular]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canClosePost"><![CDATA[Mesajları kapatabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canCloseThread"><![CDATA[Konuları kapatabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canCopyPost"><![CDATA[Mesajları kopyalayabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canCopyThread"><![CDATA[Konuları kopyalayabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canDeleteOwnPost"><![CDATA[Kendi mesajlarını çöp kutusuna taşıyabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canDeletePost"><![CDATA[Mesajları çöp kutusuna taşıyabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canDeletePostCompletely"><![CDATA[Mesajları silebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canDeleteThread"><![CDATA[Konuları çöp kutusna taşıyabilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canDeleteThreadCompletely"><![CDATA[Konuları silebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canDownloadAttachment"><![CDATA[Ek dosyaları indirebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canEditOwnPost"><![CDATA[Kendi mesajlarını düzenleyebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canEditPost"><![CDATA[Mesajları düzenleyebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canEnablePost"><![CDATA[Mesajları onaylayabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canEnableThread"><![CDATA[Konuları onaylayabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canEnterBoard"><![CDATA[Foruma girebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canLikePost"><![CDATA[Mesajları beğenebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkAsDoneOwnThread"><![CDATA[Kendi konularını çözümlenmiş olarak işaretleyebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkAsDoneThread"><![CDATA[Konuları çözümlenmiş olarak işaretleyebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkBestAnswer"><![CDATA[“En İyi Cevap“ olarak işaretlenebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkBestAnswerOwnThread"><![CDATA[Kendi ileti dizilerinde “En İyi Yanıt“ ı işaretleyebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMergePost"><![CDATA[Mesajları birleştirebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMergeThread"><![CDATA[Konuları birleştirebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMovePost"><![CDATA[Mesajları taşıyabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMoveThread"><![CDATA[Konuları taşıyabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canPinThread"><![CDATA[Konuları sabitleyebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canReadDeletedPost"><![CDATA[Silinmiş mesajları okuyabilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canReadDeletedThread"><![CDATA[Silinmiş konuları okuyabilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canReadPrivateThread"><![CDATA[Özel konuları okuyabilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canReadThread"><![CDATA[Konuları okuyabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canReplyClosedThread"><![CDATA[Kapalı konuları cevaplayabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canReplyOwnThread"><![CDATA[Kendi konularını cevaplayabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canReplyThread"><![CDATA[Konuları cevaplayabilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canReplyThreadWithoutModeration"><![CDATA[Onay olmadan konuları cevaplayabilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canRestorePost"><![CDATA[Mesajları geri yükleyebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canRestoreThread"><![CDATA[Konuları geri yükleyebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canSetTags"><![CDATA[Konu etiketi belirleyebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canStartAnnouncement"><![CDATA[Duyuru oluşturabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canStartPoll"><![CDATA[Anket başlatabilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canStartThread"><![CDATA[Konu başlatabilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canStartThreadWithoutModeration"><![CDATA[Onay olmadan konular başlatabilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canUploadAttachment"><![CDATA[Ek dosya yükleyebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canViewAttachmentPreview"><![CDATA[Ek dosya önizlemelerini görebilir mi?]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canViewBoard"><![CDATA[Forumu görebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canVotePoll"><![CDATA[Anketlere katılabilir mi?]]></item>
+	</category>
+	<category name="wcf.acp.ad">
+		<item name="wcf.acp.ad.location.category.com.woltlab.wbb.boardList"><![CDATA[Forum: Forum Listesi]]></item>
+		<item name="wcf.acp.ad.location.category.com.woltlab.wbb.thread"><![CDATA[Forum: Konu]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.boardList.after1stCategory"><![CDATA[İlk kategoriden sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.boardList.afterEvery2ndCategory"><![CDATA[Her 2. kategoriden sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.boardList.afterEvery3rdCategory"><![CDATA[Her 3. kategoriden sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.boardList.afterEveryCategory"><![CDATA[Her kategoriden sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.boardList.afterLastCategory"><![CDATA[En son kategoriden sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.thread.after1stPost"><![CDATA[İlk mesajdan sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.thread.afterEvery10thPost"><![CDATA[Her 10. mesajdan sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.thread.afterEvery2ndPost"><![CDATA[Her 2. mesajdan sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.thread.afterEvery3rdPost"><![CDATA[Her 3. mesajdan sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.thread.afterEvery5thPost"><![CDATA[Her 5. mesajdan sonra]]></item>
+		<item name="wcf.acp.ad.location.com.woltlab.wbb.thread.in1stPost"><![CDATA[İlk mesaj içinde]]></item>
+		<item name="wcf.acp.ad.location.thread.variables.description"><![CDATA[<li><kbd>{literal}{$boardTitle}{/literal}</kbd> ileti dizisinin forumunun adıyla</li>
+<li><kbd>{literal}{$threadTitle}{/literal}</kbd> konunun ismiyle</li>]]></item>
+	</category>
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.woltlab.wbb.boardTagCloud"><![CDATA[Konu Etiketleri]]></item>
+		<item name="wcf.acp.box.boxController.com.woltlab.wbb.threadList"><![CDATA[Konular]]></item>
+	</category>
+	<category name="wcf.acp.content">
+		<item name="wcf.acp.content.provider.com.woltlab.wbb.post"><![CDATA[Gönderiler]]></item>
+		<item name="wcf.acp.content.provider.com.woltlab.wbb.thread"><![CDATA[Konular]]></item>
+	</category>
+	<category name="wcf.acp.cronjob">
+		<item name="wcf.acp.cronjob.description.cronjob23"><![CDATA[Konuyu ve posta geri dönüşüm kutularını boşaltır]]></item>
+		<item name="wcf.acp.cronjob.description.cronjob24"><![CDATA[RSS beslemelerini okur]]></item>
+		<item name="wcf.acp.cronjob.description.cronjob25"><![CDATA[Geciken gönderileri yayınlar]]></item>
+	</category>
+	<category name="wcf.acp.dataImport">
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.acl"><![CDATA[Forum yetkileri]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.attachment"><![CDATA[Ek Dosyalar]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.board"><![CDATA[Forumlar]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.like"><![CDATA[Beğeni]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.poll"><![CDATA[Anketler]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.poll.option"><![CDATA[Anket seçenekleri]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.poll.option.vote"><![CDATA[Anket oyları]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.post"><![CDATA[Mesaj]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.thread"><![CDATA[Konu]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wbb.watchedThread"><![CDATA[İzlenen konular]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.admin.board.canAddBoard"><![CDATA[Forum oluşturabilir mi?]]></item>
+		<item name="wcf.acp.group.option.admin.board.canDeleteBoard"><![CDATA[Forum silebilir mi?]]></item>
+		<item name="wcf.acp.group.option.admin.board.canEditBoard"><![CDATA[Forum düzenleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.admin.board.canManageRssFeed"><![CDATA[RSS alanlarını yönetebilir mi?]]></item>
+		<item name="wcf.acp.group.option.category.admin.board"><![CDATA[Forum]]></item>
+		<item name="wcf.acp.group.option.category.mod.board"><![CDATA[Forum]]></item>
+		<item name="wcf.acp.group.option.category.mod.board.post"><![CDATA[Mesajlar]]></item>
+		<item name="wcf.acp.group.option.category.mod.board.thread"><![CDATA[Konular]]></item>
+		<item name="wcf.acp.group.option.category.user.board"><![CDATA[Forum]]></item>
+		<item name="wcf.acp.group.option.category.user.board.post"><![CDATA[Mesajlar]]></item>
+		<item name="wcf.acp.group.option.category.user.board.thread"><![CDATA[Konular]]></item>
+		<item name="wcf.acp.group.option.mod.board.canClosePost"><![CDATA[Mesajları kapatabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canCloseThread"><![CDATA[Konuları kapatabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canCopyPost"><![CDATA[Mesajları kopyalayabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canCopyThread"><![CDATA[Konuları kopyalayabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canDeletePost"><![CDATA[Mesajları çöp kutusuna taşıyabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canDeletePostCompletely"><![CDATA[Mesajları silebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canDeleteThread"><![CDATA[Konuları çöp kutusuna taşıyabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canDeleteThreadCompletely"><![CDATA[Konuları silebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canEditPost"><![CDATA[Mesajları düzenleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canEnablePost"><![CDATA[Mesajları onaylayabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canEnableThread"><![CDATA[Konuları onaylayabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canMarkAsDoneThread"><![CDATA[Konuları çözümlenmiş olarak işaretleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canMarkBestAnswer"><![CDATA[“En İyi Cevap” olarak işaretleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canMarkPostOfficial"><![CDATA[Resmi gönderiler oluşturabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canMergePost"><![CDATA[Mesajları birleştirebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canMergeThread"><![CDATA[Konuları birleştirebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canMovePost"><![CDATA[Mesajları taşıyabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canMoveThread"><![CDATA[Konuları taşıyabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canPinThread"><![CDATA[Konuları sabitleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canReadDeletedPost"><![CDATA[Çöp kutusundaki mesajları okuyabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canReadDeletedThread"><![CDATA[Çöp kutusundaki konuları okuyabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canReadPrivateThread"><![CDATA[Tüm özel konuları okuyabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canReplyClosedThread"><![CDATA[Kapalı konuları cevaplayabilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canRestorePost"><![CDATA[Silinmiş mesajları geri yükleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canRestoreThread"><![CDATA[Silinmiş konuları geri yükleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.mod.board.canStartAnnouncement"><![CDATA[Duyuru oluşturabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canDeleteOwnPost"><![CDATA[Kendi mesajlarını çöp kutusuna taşıyabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canDownloadAttachment"><![CDATA[Ek dosyaları indirebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canEditOwnPost"><![CDATA[Kendi mesajlarını düzenleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canEnterBoard"><![CDATA[Forumlara erişebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canHideEditNote"><![CDATA[Düzenleme notu olmadan mesajları düzenleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canLikePost"><![CDATA[Mesajları beğenebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canMarkAsDoneOwnThread"><![CDATA[Kendi konularını çözümlenmiş olarak işaretleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canMarkBestAnswerOwnThread"><![CDATA[Kendi mesajlarını “En İyi Yanıt” şeklinde işaretleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canReadThread"><![CDATA[Konuları okuyabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canReplyOwnThread"><![CDATA[Kendi konularını cevaplayabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canReplyThread"><![CDATA[Konulara cevap yazabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canReplyThreadWithoutModeration"><![CDATA[Konulara onay olmadan cevap yazabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canSetTags"><![CDATA[Konu etiketi belirleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canStartPoll"><![CDATA[Anket başlatabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canStartPollInReply"><![CDATA[Cevap içinde anket başlatabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canStartPublicPoll"><![CDATA[Genel anket başlatabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canStartThread"><![CDATA[Konu oluşturabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canStartThreadWithoutModeration"><![CDATA[Onay olmadan konu başlatabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canUploadAttachment"><![CDATA[Ek dosya yükleyebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canViewAttachmentPreview"><![CDATA[Ek dosya önizlemelerini görebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canViewBoard"><![CDATA[Forumları görebilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.canVotePoll"><![CDATA[Anketlere katılabilir mi?]]></item>
+		<item name="wcf.acp.group.option.user.board.doublePostLock"><![CDATA[Art arda mesajlar için gecikme süresi?]]></item>
+		<item name="wcf.acp.group.option.user.board.doublePostLock.description"><![CDATA[Aynı konu içinde art arda yazılan iki cevap arasında olması gereken dakika cinsinden en az süredir. Sınırsız ya da süresiz için -1 kullanın.]]></item>
+		<item name="wcf.acp.group.option.user.board.floodControlTime"><![CDATA[Flood Önleme]]></item>
+		<item name="wcf.acp.group.option.user.board.floodControlTime.description"><![CDATA[İki ayrı mesaj oluşturma arasında geçmesi gereken saniye cinsinden en az süredir.]]></item>
+		<item name="wcf.acp.group.option.user.board.maxPostLength"><![CDATA[Maksimum kullanabileceği mesaj uzunluğu?]]></item>
+		<item name="wcf.acp.group.option.user.board.oldPostEditFloodCount"><![CDATA[24 Saat başına düzenlenen maksimum eski gönderi sayısı?]]></item>
+		<item name="wcf.acp.group.option.user.board.oldPostEditFloodCount.description"><![CDATA[Bir kullanıcının 24 saat içinde düzenleyebileceği eski gönderi sayısını sınırlar. Bir gönderi, hem oluşturulma hem de son düzenleme 24 saatten daha uzun bir süre önce gerçekleşmişse eski olarak kabul edilir. Sonsuz için -1 kullanın.]]></item>
+		<item name="wcf.acp.group.option.user.board.postEditTimeout"><![CDATA[Mesaj Düzenleme Süresi]]></item>
+		<item name="wcf.acp.group.option.user.board.postEditTimeout.description"><![CDATA[Dakika olarak belirlenen bu süre içinde kullanıcılar kendi mesajlarını düzenleyebilirler. Sınırsız ya da süresiz için -1 kullanın.]]></item>
+	</category>
+	<category name="wcf.acp.label">
+		<item name="wcf.acp.label.container.com.woltlab.wbb.board"><![CDATA[Forum]]></item>
+	</category>
+	<category name="wcf.acp.modificationLog">
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.close"><![CDATA[Mesaj düzenleme kilitlendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.delete"><![CDATA[Mesaj silindi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.disable"><![CDATA[Mesaj devre dışı bırakıldı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.edit"><![CDATA[Mesaj düzenlendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.enable"><![CDATA[Mesaj onaylandı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.merge"><![CDATA[Mesaj birleştirildi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.move"><![CDATA[Mesaj taşındı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.open"><![CDATA[Mesaj düzenlemeye izin verildi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.restore"><![CDATA[Mesaj geri yüklendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.post.trash"><![CDATA[Mesaj çöp kutusuna taşındı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.changeTopic"><![CDATA[Konunun konusu değişti]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.close"><![CDATA[Konu kapandı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.delete"><![CDATA[Konu silindi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.disable"><![CDATA[Konu devre dışı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.done"><![CDATA[Konu çözüldü olarak işaretlendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.enable"><![CDATA[Konu onaylandı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.markAsBestAnswer"><![CDATA[En iyi cevap seçildi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.merge"><![CDATA[Konu birleştirildi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.move"><![CDATA[Konu taşındı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.open"><![CDATA[Konu açıldı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.restore"><![CDATA[Konu geri yüklendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.scrape"><![CDATA[Konu artık yapışkan olarak işaretlenmiyor]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.setAsAnnouncement"><![CDATA[Konu artık bir duyuru]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.setLabel"><![CDATA[Konu etiketleri düzenlendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.sticky"><![CDATA[Konu artık yapışkan olarak işaretlendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.trash"><![CDATA[Konu çöp kutusuna taşındı]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.undone"><![CDATA[Konu çözülmemiş olarak işaretlendi]]></item>
+		<item name="wcf.acp.modificationLog.com.woltlab.wbb.thread.unsetAsAnnouncement"><![CDATA[Konu artık bir duyuru değil]]></item>
+	</category>
+	<category name="wcf.acp.notice">
+		<item name="wcf.acp.notice.conditions.wbbThread"><![CDATA[Etkin Konu]]></item>
+		<item name="wcf.acp.notice.conditions.wbbThread.description"><![CDATA[Etkin konu bidlirimi görmek için belirtilen koşulları sağlamalıdır.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.board"><![CDATA[Forum]]></item>
+		<item name="wcf.acp.option.category.board.article.articleThread"><![CDATA[Tartışma Konusu]]></item>
+		<item name="wcf.acp.option.category.board.article.articleThread.description"><![CDATA[Tartışma konuları, her yeni yazı için seçilen forum içerisinde otomatik olarak oluşturulur.]]></item>
+		<item name="wcf.acp.option.category.board.board"><![CDATA[Forumlar]]></item>
+		<item name="wcf.acp.option.category.board.board.general"><![CDATA[Genel]]></item>
+		<item name="wcf.acp.option.category.board.board.threads"><![CDATA[Konu Listesi]]></item>
+		<item name="wcf.acp.option.category.board.index"><![CDATA[Forum Dizini]]></item>
+		<item name="wcf.acp.option.category.board.index.boards"><![CDATA[Forum Listesi]]></item>
+		<item name="wcf.acp.option.category.board.index.general"><![CDATA[Forum Dizini]]></item>
+		<item name="wcf.acp.option.category.board.post"><![CDATA[Mesajlar]]></item>
+		<item name="wcf.acp.option.category.board.post.add"><![CDATA[Mesaj Oluşturma]]></item>
+		<item name="wcf.acp.option.category.board.post.edit"><![CDATA[Mesaj Düzenleme]]></item>
+		<item name="wcf.acp.option.category.board.thread"><![CDATA[Konu]]></item>
+		<item name="wcf.acp.option.category.board.thread.general"><![CDATA[Genel]]></item>
+		<item name="wcf.acp.option.category.board.thread.posts"><![CDATA[Mesaj Listesi]]></item>
+		<item name="wcf.acp.option.wbb_article_thread_board_id"><![CDATA[Forum]]></item>
+		<item name="wcf.acp.option.wbb_article_thread_board_id.description"><![CDATA[Tartışma konuları seçili forum içerisinde oluşturulacaktır.]]></item>
+		<item name="wcf.acp.option.wbb_article_thread_categories"><![CDATA[Kategoriler]]></item>
+		<item name="wcf.acp.option.wbb_article_thread_categories.description"><![CDATA[Yazılar için tartışma konularını sadece seçili kategoriler içinde oluşturur.]]></item>
+		<item name="wcf.acp.option.wbb_article_thread_single_board"><![CDATA[Makale kategorileri için tek forum mu seçilsin?]]></item>
+		<item name="wcf.acp.option.wbb_article_thread_single_board.description"><![CDATA[Seçilen kategoriye bağlı kalmaksızın tartışma konuları belirlenen forum içerisinde açılacaktır. Bu seçeneğin etkisizleştirilmesi sonucu istediğiniz kategorileri düzenler ve onları belirli bir foruma atayabilirsiniz.]]></item>
+		<item name="wcf.acp.option.wbb_board_default_days_prune"><![CDATA[Zaman Aralığı]]></item>
+		<item name="wcf.acp.option.wbb_board_default_days_prune.description"><![CDATA[Sadece belirtilen zaman aralığındaki konuları göster.]]></item>
+		<item name="wcf.acp.option.wbb_board_default_sort_field"><![CDATA[Sıralama Seçeneği]]></item>
+		<item name="wcf.acp.option.wbb_board_default_sort_field.description"><![CDATA[Konular için varsayılan sıralama seçeneğini seçiniz]]></item>
+		<item name="wcf.acp.option.wbb_board_default_sort_order"><![CDATA[Sıralama Düzeni]]></item>
+		<item name="wcf.acp.option.wbb_board_default_sort_order.description"><![CDATA[Konular için varsayılan sıralama düzenini seçiniz]]></item>
+		<item name="wcf.acp.option.wbb_board_enable_deleted_thread_note"><![CDATA[Çöp kutusundaki konular için bilgi notu gösterilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_board_enable_deleted_thread_note.description"><![CDATA[Çöp kutusundaki konular konu listesindeki bir bildirimle yer değiştirecektir]]></item>
+		<item name="wcf.acp.option.wbb_board_enable_moderators"><![CDATA[Forum moderatörleri gösterilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_board_enable_stats"><![CDATA[Forum istatistikleri gösterilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_board_list_depth"><![CDATA[Forum Listesi Derinliği]]></item>
+		<item name="wcf.acp.option.wbb_board_list_depth.description"><![CDATA[Forum listesinde gösterilen forumların en fazla derinliği]]></item>
+		<item name="wcf.acp.option.wbb_board_threads_enable_language_flag"><![CDATA[Konu dili bayrakla gösterilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_board_threads_enable_language_flag.description"><![CDATA[Konular, konu oluşturucu tarafından hangi dilin kullanıldığına bağlı olarak bir bayrak görüntüler.]]></item>
+		<item name="wcf.acp.option.wbb_board_threads_per_page"><![CDATA[Sayfa başına kaç adet konu gösterilsin?]]></item>
+		<item name="wcf.acp.option.wbb_board_users_online_filter"><![CDATA[Forumlarda ”Çevrimiçi Kullanıcılar” Listesini Filtreleyin]]></item>
+		<item name="wcf.acp.option.wbb_board_users_online_filter.description"><![CDATA[Yalnızca şu anda ziyaret edilen forumda bulunan kullanıcılar “Çevrimiçi Kullanıcılar” listesinde gösterilir.]]></item>
+		<item name="wcf.acp.option.wbb_index_enable_stats"><![CDATA[Forum istatistikleri gösterilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_message_sidebar_enable_user_posts"><![CDATA[Yazarın mesaj sayısını göster]]></item>
+		<item name="wcf.acp.option.wbb_module_thread_marking_as_done"><![CDATA[Konuların çözümlenmiş olarak işaretlenmesi etkinleştirilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_official_post_default"><![CDATA[Gönderiler “Resmi Gönderi” olarak işaretlensin mi?]]></item>
+		<item name="wcf.acp.option.wbb_official_post_default.description"><![CDATA[Kullanıcı resmi gönderi oluşturma iznine sahipse, gönderiler varsayılan "resmi" olarak işaretlenecektir.]]></item>
+		<item name="wcf.acp.option.wbb_post_edit_hide_edit_note_period"><![CDATA[Sınırlı Düzenleme Süresi?]]></item>
+		<item name="wcf.acp.option.wbb_post_edit_hide_edit_note_period.description"><![CDATA[Belirtilen dakika içinde yapılan düzenlemelerde bir düzenleme notu gösterilmeyecektir.]]></item>
+		<item name="wcf.acp.option.wbb_post_min_char_length"><![CDATA[Minimum mesaj uzunluğu?]]></item>
+		<item name="wcf.acp.option.wbb_post_min_word_count"><![CDATA[Minimum kelime sayısı?]]></item>
+		<item name="wcf.acp.option.wbb_post_notification_mail_include_message"><![CDATA[Ayrıntılı E-posta Bildirimini Etkinleştir?]]></item>
+		<item name="wcf.acp.option.wbb_post_notification_mail_include_message.description"><![CDATA[İzlenen konular, hakkında konuşulanlar ve alıntılar e-posta mesajına dahil edilecektir.]]></item>
+		<item name="wcf.acp.option.wbb_reply_old_thread_warning"><![CDATA[Eski konular için uyarı gösterilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_reply_old_thread_warning.description"><![CDATA[Konuya yazılan son cevabın zamanına göre konuyu eskimiş olarak işaretler. Bu konuya cevap yazacak kullanıcılara bir bilgilendirme gösterilir.]]></item>
+		<item name="wcf.acp.option.wbb_search_find_threads"><![CDATA[Arama sonuçlarını konu olarak göster]]></item>
+		<item name="wcf.acp.option.wbb_thread_delete_link_cycle"><![CDATA[Yönlendirme bağlantıları ne zaman silinsin?]]></item>
+		<item name="wcf.acp.option.wbb_thread_delete_link_cycle.description"><![CDATA[Taşınmış konuların önceki bulundukları yerde bırakılan yönlendirme bağlantıları belirtilen gün sonrasında kaldırılacaktır. Devre dışı bırakmak içinse 0 giriniz.]]]></item>
+		<item name="wcf.acp.option.wbb_thread_empty_recycle_bin_cycle"><![CDATA[Çöp kutusundaki konu/mesajlar ne zaman silinsin?]]></item>
+		<item name="wcf.acp.option.wbb_thread_empty_recycle_bin_cycle.description"><![CDATA[Çöp kutusundaki konu ve mesajlar belirtilen günden sonra kaldırılacak, silinecektir. Devre dışı bırakmak içinse 0 giriniz.]]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_deleted_post_note"><![CDATA[Çöp kutusundaki mesajlar için not gösterilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_deleted_post_note.description"><![CDATA[Çöp kutusundaki mesajlar için eski bulundukları yerde, mesaj listesinde bir bilgilendirme notu bulunacaktır]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_moderation_notification"><![CDATA[Moderasyon bildirimleri etkinleştirilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_moderation_thread_log"><![CDATA[Konularda denetim bildirimleri etkinleştirilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_similar_threads"><![CDATA[Benzer konular gösterilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_tags"><![CDATA[Konu etiketleme aktif edilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_thread_enable_tags.description"><![CDATA[Kullanıcılar etiket bulutunda da görünebilecek etiketlerle konuları etiketleyebilirler.]]></item>
+		<item name="wcf.acp.option.wbb_thread_guest_max_posts"><![CDATA[Misafirler için gösterilecek mesaj sayısı?]]></item>
+		<item name="wcf.acp.option.wbb_thread_guest_max_posts.description"><![CDATA[Misafirler için yalnızca yapılandırılan sınıra kadar olan ilk mesajlar görüntülenecektir. Daha fazla yanıtı olan mesaj dizileri, ziyaretçileri kaydolmaya veya oturum açmaya teşvik etmek için bir uyarı gösterecektir. Her zaman tüm gönderileri göstermek için 0 kullanın.]]]></item>
+		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle"><![CDATA[Konu kaç gün sonra otomatik çözümlenmiş olarak işaretlensin?]]></item>
+		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle.description"><![CDATA[Konu son cevabın tarihine göre belirli bir gün sonra tamamlandı olarak işaretlenecektir. Devre dışı bırakmak içinse 0 giriniz.]]></item>
+		<item name="wcf.acp.option.wbb_thread_max_formatted_excerpt_length"><![CDATA[Konu önizleme için en fazla karakter sayısı?]]></item>
+		<item name="wcf.acp.option.wbb_thread_min_char_length"><![CDATA[Minimum konu başlığı uzunluğu?]]></item>
+		<item name="wcf.acp.option.wbb_thread_min_word_count"><![CDATA[Minimum konu başlığı kelime uzunluğu?]]></item>
+		<item name="wcf.acp.option.wbb_thread_moderation_notification_show_moderator"><![CDATA[Bildirimler için moderatör gösterilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_thread_posts_per_page"><![CDATA[Sayfa başına gösterilecek mesaj sayısı?]]></item>
+		<item name="wcf.acp.option.wbb_thread_show_similar_threads_when_creating_new_thread"><![CDATA[Konu oluştururken benzer konular hakkında kullanıcılar bilgilendirilsin mi?]]></item>
+		<item name="wcf.acp.option.wbb_thread_show_similar_threads_when_creating_new_thread.description"><![CDATA[Konu başlığına göre benzer konular araştırılır ve bunun bir listesi gösterilir.]]></item>
+		<item name="wcf.acp.option.wbb_thread_similar_threads_count"><![CDATA[Gösterilecek benzer konular sayısı?]]></item>
+		<item name="wcf.acp.option.wbb_thread_similar_threads_search_period"><![CDATA[Benzer konuların zaman aralığı?]]></item>
+		<item name="wcf.acp.option.wbb_thread_similar_threads_search_period.description"><![CDATA[Belirtilen gün sonrasında cevap yazılmazsa benzer konular değerlendirilecektir.]]></item>
+		<item name="wcf.acp.option.wbb_thread_users_online_filter"><![CDATA[Konulardaki ”Çevrimiçi Kullanıcılar” Listesi filtrelensin mi?]]></item>
+		<item name="wcf.acp.option.wbb_thread_users_online_filter.description"><![CDATA[Yalnızca şu anda ziyaret edilen konu dizisinde bulunan kullanıcılar “Çevrimiçi Kullanıcılar“ listesinde gösterilir.]]></item>
+	</category>
+	<category name="wcf.acp.pip">
+		<item name="wcf.acp.pip.objectType.com.woltlab.wbb.box.threadList.condition.data.title"><![CDATA[Konu Listesi Kutusu Durum Verileri]]></item>
+		<item name="wcf.acp.pip.objectType.com.woltlab.wbb.bulkProcessing.post.action.data.title"><![CDATA[Eylem Verilerini Toplu İşleme Gönderme]]></item>
+		<item name="wcf.acp.pip.objectType.com.woltlab.wbb.bulkProcessing.post.condition.data.title"><![CDATA[Toplu İşleme Sonrası Durum Verileri]]></item>
+		<item name="wcf.acp.pip.objectType.com.woltlab.wbb.bulkProcessing.thread.action.data.title"><![CDATA[İş Parçacığı Toplu İşleme Eylem Verileri]]></item>
+		<item name="wcf.acp.pip.objectType.com.woltlab.wbb.bulkProcessing.thread.condition.data.title"><![CDATA[İş Parçacığı Toplu İşleme Koşul Verileri]]></item>
+		<item name="wcf.acp.pip.objectType.definitionName.com.woltlab.wbb.box.threadList.condition.description"><![CDATA[Bu nesne türü tanımı, kutuda hangi dişlerin gösterildiğini belirlemek için konuları listeleyen kutular için mevcut koşulları/ayarları kaydetmek için kullanılır.]]></item>
+		<item name="wcf.acp.pip.objectType.definitionName.com.woltlab.wbb.bulkProcessing.post.action.description"><![CDATA[Bu nesne türü tanımı, gönderileri toplu olarak işlerken yürütülebilecek eylemleri kaydetmek için kullanılır.]]></item>
+		<item name="wcf.acp.pip.objectType.definitionName.com.woltlab.wbb.bulkProcessing.post.condition.description"><![CDATA[Bu nesne türü tanımı, toplu olarak işlenen gönderilerin koşullarını kaydetmek için kullanılır.]]></item>
+		<item name="wcf.acp.pip.objectType.definitionName.com.woltlab.wbb.bulkProcessing.thread.action.description"><![CDATA[Bu nesne türü tanımı, iş parçacıkları toplu olarak işlenirken yürütülebilecek eylemleri kaydetmek için kullanılır.]]></item>
+		<item name="wcf.acp.pip.objectType.definitionName.com.woltlab.wbb.bulkProcessing.thread.condition.description"><![CDATA[Bu nesne türü tanımı, toplu olarak işlenen evrelerin koşullarını kaydetmek için kullanılır.]]></item>
+	</category>
+	<category name="wcf.acp.rebuildData">
+		<item name="wcf.acp.rebuildData.wbb_system_worker_ArticleThreadsRebuildDataWorker"><![CDATA[Rebuild Discussion Threads for Articles]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_ArticleThreadsRebuildDataWorker.description"><![CDATA[Makaleler için tartışma konularını oluşturur ve günceller.]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_BoardRebuildDataWorker"><![CDATA[Forumları Yeniden Oluştur]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_BoardRebuildDataWorker.description"><![CDATA[Forum sayaçlarını yeniden oluşturur.]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_PostRebuildDataWorker"><![CDATA[Gönderileri Yeniden Oluştur]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_PostRebuildDataWorker.description"><![CDATA[Gönderi sayaçlarını yeniden oluşturur ve etkinlik puanlarını yeniden hesaplar.]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_PostSearchIndexRebuildDataWorker"><![CDATA[Arama Sonrası Dizinini Yeniden Oluştur]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_PostSearchIndexRebuildDataWorker.description"><![CDATA[Uyarı: Bu işlemin büyük forumlarda tamamlanması biraz zaman alabilir.]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_ThreadRebuildDataWorker"><![CDATA[Konuları Yeniden Oluştur]]></item>
+		<item name="wcf.acp.rebuildData.wbb_system_worker_ThreadRebuildDataWorker.description"><![CDATA[İş parçacığı sayaçlarını yeniden oluşturur ve etkinlik noktalarını yeniden hesaplar.]]></item>
+	</category>
+	<category name="wcf.acp.sitemap">
+		<item name="wcf.acp.sitemap.objectType.com.woltlab.wbb.sitemap.object.board"><![CDATA[Forumlar]]></item>
+		<item name="wcf.acp.sitemap.objectType.com.woltlab.wbb.sitemap.object.thread"><![CDATA[Konular]]></item>
+	</category>
+	<category name="wcf.acp.stat">
+		<item name="wcf.acp.stat.category.com.woltlab.wbb"><![CDATA[WoltLab Suite Forum]]></item>
+		<item name="wcf.acp.stat.com.woltlab.wbb.post"><![CDATA[Mesajlar]]></item>
+		<item name="wcf.acp.stat.com.woltlab.wbb.thread"><![CDATA[Konular]]></item>
+	</category>
+	<category name="wcf.article">
+		<item name="wcf.article.sortField.replies"><![CDATA[Cevaplar]]></item>
+	</category>
+	<category name="wcf.clipboard">
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.copyToExistingThread"><![CDATA[Bu Konu İçine Kopyala ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.copyToExistingThread.confirmMessage"><![CDATA[Seçilen mesaj{if $count != 1}lar{/if} gerçekten bu konu içerisine kopyalansın mı?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.copyToNewThread"><![CDATA[Yeni Bir Konu İçine Kopyala ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.delete"><![CDATA[Sil ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.deleteCompletely.confirmMessage"><![CDATA[{if $count != 1}Seçilen mesajları{else}Bu mesajı{/if} gerçekten silmek istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.disable"><![CDATA[Etkisizleştir ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.enable"><![CDATA[Onayla ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.merge"><![CDATA[Birleştir ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToExistingThread"><![CDATA[Bu konuya taşı({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToExistingThread.confirmMessage"><![CDATA[{if $count != 1}Seçilen mesajları{else}Bu mesajı{/if} gerçekten bu konuya taşımak istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToNewThread"><![CDATA[Yeni konuya taşı ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.restore"><![CDATA[Geri Yükle ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.trash"><![CDATA[Çöp Kutusuna Taşı ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.trash.confirmMessage"><![CDATA[{if $count != 1}Seçilen mesajları{else}Bu mesajı{/if} gerçekten çöp kutusuna taşımak istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.assignLabel"><![CDATA[Etiketleri Belirle ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.close"><![CDATA[Kapat ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.copy"><![CDATA[Kopyala ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.copy.confirmMessage"><![CDATA[Seçilen konu{if $count != 1}lar{/if} gerçekten bu forum içine kopyalansın mı?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete"><![CDATA[Sil ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete.confirmMessage"><![CDATA[{if $count != 1}Seçilen konuları{else}Bu konuyu{/if} gerçekten silmek istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.disable"><![CDATA[Etkisizleştir ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.done"><![CDATA[Çözümlendi olarak işaretle ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.enable"><![CDATA[Onayla ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.merge"><![CDATA[Birleştir ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.move"><![CDATA[Taşı ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.open"><![CDATA[Aç ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.removeLink"><![CDATA[Yönlendirme Bilgisini Kaldır ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.removeLink.confirmMessage"><![CDATA[{if $count != 1}Seçilen bağlantıları{else}Bu bağlantıyı{/if} gerçekten kaldırmak istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.restore"><![CDATA[Geri Yükle ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.trash"><![CDATA[Çöp Kutusuna Taşı ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.trash.confirmMessage"><![CDATA[{if $count != 1}Seçilen konuları{else}Bu konuyu{/if} gerçekten çöp kutusuna taşımak istiyor musunuz?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.undone"><![CDATA[Çözümlenmedi olarak işaretle ({#$count})]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.wbb.post.marked"><![CDATA[{if $count == 1}Bir Mesaj{else}{#$count} Mesajlar{/if}]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.wbb.thread.marked"><![CDATA[{if $count == 1}Bir Konu{else}{#$count} Konular{/if}]]></item>
+	</category>
+	<category name="wcf.like">
+		<item name="wcf.like.objectType.com.woltlab.wbb.likeablePost"><![CDATA[Mesaj]]></item>
+		<item name="wcf.like.title.com.woltlab.wbb.likeablePost"><![CDATA[{if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul>{/if} {anchor object=$thread class='wbbTopicLink'} konusundaki <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">{$post->username}</a> adlı kullanıcının mesajına {@$reaction->render()} ile tepki verdi.]]></item>
+	</category>
+	<category name="wcf.menu">
+		<item name="wcf.menu.item.com.woltlab.wbb.BoardList"><![CDATA[Forum]]></item>
+		<item name="wcf.menu.item.com.woltlab.wbb.IgnoredThreadList"><![CDATA[Yoksayılan Konular]]></item>
+		<item name="wcf.menu.item.com.woltlab.wbb.UnreadThreadList"><![CDATA[Okunmamış İçerikler]]></item>
+		<item name="wcf.menu.item.com.woltlab.wbb.UnresolvedThreadList"><![CDATA[Çözümlenmemiş Konular]]></item>
+		<item name="wcf.menu.item.com.woltlab.wbb.WatchedBoardList"><![CDATA[Takip Edilen Kategoriler]]></item>
+		<item name="wcf.menu.item.com.woltlab.wbb.WatchedThreadList"><![CDATA[Takip Edilen Konular]]></item>
+	</category>
+	<category name="wcf.moderation">
+		<item name="wcf.moderation.deletedContent.com.woltlab.wbb.post"><![CDATA[Çöpteki Mesajlar]]></item>
+		<item name="wcf.moderation.deletedContent.com.woltlab.wbb.thread"><![CDATA[Çöpteki Konular]]></item>
+		<item name="wcf.moderation.deletedContent.objectType.com.woltlab.wbb.post"><![CDATA[Mesaj]]></item>
+		<item name="wcf.moderation.deletedContent.objectType.com.woltlab.wbb.thread"><![CDATA[Konu]]></item>
+		<item name="wcf.moderation.type.com.woltlab.wbb.post"><![CDATA[Mesaj]]></item>
+	</category>
+	<category name="wcf.page">
+		<item name="wcf.page.onlineLocation.com.woltlab.wbb.Board"><![CDATA[Forum <a href="{link controller='Board' application='wbb' object=$board}{/link}">{$board->getTitle()}</a>]]></item>
+		<item name="wcf.page.onlineLocation.com.woltlab.wbb.Thread"><![CDATA[Konu {anchor object=$thread class='wbbTopicLink'}]]></item>
+		<item name="wcf.page.onlineLocation.com.woltlab.wbb.ThreadAdd"><![CDATA[Forumda konu oluştur <a href="{link controller='Board' application='wbb' object=$board}{/link}">{$board->getTitle()}</a>]]></item>
+		<item name="wcf.page.onlineLocation.com.woltlab.wbb.ThreadLog"><![CDATA[Konu günlüğü {anchor object=$thread class='wbbTopicLink'}]]></item>
+		<item name="wcf.page.pageObjectID.com.woltlab.wbb.Board"><![CDATA[Forum ID]]></item>
+		<item name="wcf.page.pageObjectID.com.woltlab.wbb.Thread"><![CDATA[Konu ID]]></item>
+		<item name="wcf.page.pageObjectID.com.woltlab.wbb.ThreadAdd"><![CDATA[Forum ID]]></item>
+		<item name="wcf.page.pageObjectID.search.com.woltlab.wbb.Board"><![CDATA[Forum Başlıklarını Ara]]></item>
+		<item name="wcf.page.pageObjectID.search.com.woltlab.wbb.Thread"><![CDATA[Konu Başlıklarını Ara]]></item>
+		<item name="wcf.page.pageObjectID.search.com.woltlab.wbb.ThreadAdd"><![CDATA[Forum Başlıklarını Ara]]></item>
+	</category>
+	<category name="wcf.search">
+		<item name="wcf.search.object.com.woltlab.wbb.post"><![CDATA[Mesaj]]></item>
+		<item name="wcf.search.type.com.woltlab.wbb.board"><![CDATA[Bu Forum]]></item>
+		<item name="wcf.search.type.com.woltlab.wbb.post"><![CDATA[Forum]]></item>
+		<item name="wcf.search.type.com.woltlab.wbb.thread"><![CDATA[Bu Konu]]></item>
+	</category>
+	<category name="wcf.tagging">
+		<item name="wcf.tagging.combinedTaggedObjects.com.woltlab.wbb.thread"><![CDATA[İle Etiketlenen Konular]]></item>
+		<item name="wcf.tagging.objectType.com.woltlab.wbb.thread"><![CDATA[Konular]]></item>
+		<item name="wcf.tagging.taggedObjects.com.woltlab.wbb.thread"><![CDATA[Konular “{$tag->name}” etiketi ile işaretlenmiş]]></item>
+	</category>
+	<category name="wcf.user">
+		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.post"><![CDATA[Mesaj]]></item>
+		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.thread"><![CDATA[Konu]]></item>
+		<item name="wcf.user.boxList.description.wbbPosts"><![CDATA[{#$boxUser->wbbPosts} Mesaj{if $boxUser->wbbPosts != 1}lar{/if}]]></item>
+		<item name="wcf.user.sortField.wbbPosts"><![CDATA[Mesajlar]]></item>
+	</category>
+	<category name="wcf.user.condition">
+		<item name="wcf.user.condition.wbbBestAnswers"><![CDATA[Konularda En İyi Cevaplar]]></item>
+		<item name="wcf.user.condition.wbbPosts"><![CDATA[Mesajlar]]></item>
+	</category>
+	<category name="wcf.user.notification">
+		<item name="wcf.user.notification.com.woltlab.wbb"><![CDATA[Forum Bildirimleri]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.likeablePost.notification.like"><![CDATA[Konu veya mesajlarıma tepki verildiğinde beni bilgilendir.]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.moderation.post.moderate"><![CDATA[Mesajım Moderatör tarafından denetlendiğinde beni bilgilendir.]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.moderation.thread.moderate"><![CDATA[Konum Moderatör tarafından denetlendiğinde beni bilgilendir.]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.post.mention"><![CDATA[Benden bahsedildiğinde beni bilgilendir.]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.post.post"><![CDATA[Abone olunan konulardaki yeni cevaplarda beni bilgilendir.]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.post.quote"><![CDATA[Mesajıma alıntı yapıldığında beni bilgilendir.]]></item>
+		<item name="wcf.user.notification.com.woltlab.wbb.thread.thread"><![CDATA[Abone olunan forumlardaki yeni konularda beni bilgilendir.]]></item>
+	</category>
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.postsPerPage"><![CDATA[Sayfa başına kaç adet mesaj gösterilsin?]]></item>
+		<item name="wcf.user.option.threadsPerPage"><![CDATA[Sayfa başına kaç adet konu gösterilsin?]]></item>
+		<item name="wcf.user.option.watchThreadOnReply"><![CDATA[Cevap verdiğin konuları izlemeye almak ister misin? (Evet; Sürekli bildirim almanıza neden olabilir)]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.recentActivity.bestAnswer"><![CDATA[{if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{anchor object=$thread class='wbbTopicLink'}"></a> adlı konudaki <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">{$post->username}</a>’in yanıtı en iyi cevap olarak işaretlendi.]]></item>
+		<item name="wcf.user.profile.recentActivity.likedPost"><![CDATA[{if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$thread class='wbbTopicLink'} konusundaki <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">{$post->username}</a>’in gönderisine <span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> tepkisi verdi.]]></item>
+		<item name="wcf.user.profile.recentActivity.post"><![CDATA[{if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">{$thread->topic}</a> adlı konuya cevap verdi.]]></item>
+		<item name="wcf.user.profile.recentActivity.thread"><![CDATA[{if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$thread class='wbbTopicLink'} adlı konuyu oluşturdu.]]></item>
+	</category>
+	<category name="wcf.user.recentActivity">
+		<item name="wcf.user.recentActivity.com.woltlab.wbb.likeablePost.recentActivityEvent"><![CDATA[Tepki (Mesaj)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.bestAnswer"><![CDATA[En İyi Cevap]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.post"><![CDATA[Mesaj]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.thread"><![CDATA[Konu]]></item>
+	</category>
+	<category name="shadow.invalid.page">
+		<item name="shadow.invalid.page.com.woltlab.wbb.BoardList.title"><![CDATA[Forum]]></item>
+		<item name="shadow.invalid.page.com.woltlab.wbb.IgnoredThreadList.title"><![CDATA[Yoksayılan Konular]]></item>
+		<item name="shadow.invalid.page.com.woltlab.wbb.ThreadAdd.title"><![CDATA[Konu Oluştur]]></item>
+		<item name="shadow.invalid.page.com.woltlab.wbb.ThreadLog.title"><![CDATA[İşlem Geçmişi]]></item>
+		<item name="shadow.invalid.page.com.woltlab.wbb.UnreadThreadList.title"><![CDATA[Okunmamış İçerikler]]></item>
+		<item name="shadow.invalid.page.com.woltlab.wbb.UnresolvedThreadList.title"><![CDATA[Çözümlenmemiş Konular]]></item>
+		<item name="shadow.invalid.page.com.woltlab.wbb.WatchedBoardList.title"><![CDATA[Takip Edilen Kategoriler]]></item>
+		<item name="shadow.invalid.page.com.woltlab.wbb.WatchedThreadList.title"><![CDATA[Takip Edilen Konular]]></item>
+	</category>
+	<category name="shadow.invalid.box">
+		<item name="shadow.invalid.box.com.woltlab.wbb.BoardTagCloud.title"><![CDATA[Konu Etiket Bulutu]]></item>
+		<item name="shadow.invalid.box.com.woltlab.wbb.HotThreads.title"><![CDATA[Son Konular]]></item>
+		<item name="shadow.invalid.box.com.woltlab.wbb.LatestPosts.title"><![CDATA[Son Mesajlar]]></item>
+		<item name="shadow.invalid.box.com.woltlab.wbb.MostActiveThreads.title"><![CDATA[En Etkin Konular]]></item>
+		<item name="shadow.invalid.box.com.woltlab.wbb.ThreadsAsNews.title"><![CDATA[Haberler]]></item>
+		<item name="shadow.invalid.box.com.woltlab.wbb.TopPoster.title"><![CDATA[En Fazla Mesaj Gönderen Kullanıcılar]]></item>
+		<item name="shadow.invalid.box.com.woltlab.wbb.UnreadThreads.title"><![CDATA[Okunmamış Konular]]></item>
+	</category>
+</language>
