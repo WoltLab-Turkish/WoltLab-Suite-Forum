@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="tr" languagename="Türkçe" countrycode="tr">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd" languagecode="tr" languagename="Türkçe" countrycode="tr">
 	<category name="wbb.acp.board">
 		<item name="wbb.acp.board.add"><![CDATA[Forum Ekle]]></item>
 		<item name="wbb.acp.board.addSubboard"><![CDATA[Alt Forum Ekle]]></item>
@@ -1029,10 +1029,10 @@
 		<item name="wcf.user.option.watchThreadOnReply"><![CDATA[Cevap verdiğin konuları izlemeye almak ister misin? (Evet; Sürekli bildirim almanıza neden olabilir)]]></item>
 	</category>
 	<category name="wcf.user.profile">
-		<item name="wcf.user.profile.recentActivity.bestAnswer"><![CDATA[{if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{anchor object=$thread class='wbbTopicLink'}"></a> adlı konudaki <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">{$post->username}</a>’in yanıtı en iyi cevap olarak işaretlendi.]]></item>
-		<item name="wcf.user.profile.recentActivity.likedPost"><![CDATA[{if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$thread class='wbbTopicLink'} konusundaki <a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">{$post->username}</a>’in gönderisine <span title="{$reactionType->getTitle()}" class="jsTooltip">{@$reactionType->renderIcon()}</span> tepkisi verdi.]]></item>
-		<item name="wcf.user.profile.recentActivity.post"><![CDATA[{if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}<a href="{$post->getLink()}" class="wbbPostLink" data-object-id="{@$post->postID}">{$thread->topic}</a> adlı konuya cevap verdi.]]></item>
-		<item name="wcf.user.profile.recentActivity.thread"><![CDATA[{if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{@$label->render()}</li>{/foreach}</ul> {/if}{anchor object=$thread class='wbbTopicLink'} adlı konuyu oluşturdu.]]></item>
+		<item name="wcf.user.profile.recentActivity.bestAnswer"><![CDATA[<strong>{$author}</strong> marked <strong>{$post->username}’s post</strong> in the thread {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong>’in yanıtı en iyi cevap olarak işaretlendi.]]></item>
+		<item name="wcf.user.profile.recentActivity.likedPost"><![CDATA[<strong>{$author}</strong> reacted with  to  {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if} <strong>{$post->username}’s post</strong> <strong>{$thread->getTitle()}</strong> <span title="{$reactionType->getTitle()}" class="jsTooltip">{unsafe:$reactionType->renderIcon()}</span> ile tepki verdi.]]></item>
+		<item name="wcf.user.profile.recentActivity.post"><![CDATA[<strong>{$author}</strong>, {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong> adlı konuya cevap verdi.]]></item>
+		<item name="wcf.user.profile.recentActivity.thread"><![CDATA[<strong>{$author}</strong>, {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong> adlı konuyu oluşturdu.]]></item>
 	</category>
 	<category name="wcf.user.recentActivity">
 		<item name="wcf.user.recentActivity.com.woltlab.wbb.likeablePost.recentActivityEvent"><![CDATA[Tepki (Mesaj)]]></item>
