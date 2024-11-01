@@ -170,7 +170,7 @@
 		<item name="wbb.acp.thread.bulkProcessing.restore"><![CDATA[Geri Yükle]]></item>
 		<item name="wbb.acp.thread.bulkProcessing.success"><![CDATA[Seçilen işlem çalıştırıldı ve {#$affectedObjectCount} konuyu{if $affectedObjectCount != 1}{/if} etkiledi.{if $affectedObjectCount > 0}<br>Lütfen daha sonra <a href="{link controller='RebuildData'}{/link}">“Bütünlük Doğrulama”</a> yaptığınızdan emin olun.{/if}]]></item>
 		<item name="wbb.acp.thread.bulkProcessing.trash"><![CDATA[Çöp Kutusuna Taşı]]></item>
-		<item name="wbb.acp.thread.bulkProcessing.warning"><![CDATA[Dikkat! Toplu işleme seçilen koşulları karşılayan tüm konular için aşağıdaki tüm işlemleri tekrar herhangi bir onay istemeden çalıştıracaktır!]]></item>
+		<item name="wbb.acp.thread.bulkProcessing.warning"><![CDATA[<strong>Dikkat</strong>: Toplu işleme seçilen koşulları karşılayan tüm konular için aşağıdaki tüm işlemleri tekrar herhangi bir onay istemeden çalıştıracaktır!]]></item>
 	</category>
 	<category name="wbb.acp.user">
 		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[Belirtilenden Daha Fazla Olan Toplam Mesajlar]]></item>
@@ -220,7 +220,7 @@
 		<item name="wbb.board.status.threadsOnly"><![CDATA[Abone olundu (Yalnızca konu başlıkları)]]></item>
 		<item name="wbb.board.status.threadsOnly.description"><![CDATA[Yeni konular için bildirim alın.]]></item>
 		<item name="wbb.board.status.watching"><![CDATA[Abone olundu]]></item>
-		<item name="wbb.board.subBoards"><![CDATA[Sub-forums]]></item>
+		<item name="wbb.board.subBoards"><![CDATA[Alt forumlar]]></item>
 		<item name="wbb.board.unreadThreads"><![CDATA[{plural value=$unreadThreads 1='Bir okunmamış konu' other='# okunmamış konular'}]]></item>
 		<item name="wbb.board.usersOnline"><![CDATA[Bu Forumu Görüntüleyen Kullanıcılar]]></item>
 		<item name="wbb.board.watchedBoards.markAll"><![CDATA[Tümünü İşaretle]]></item>
@@ -306,7 +306,7 @@
 		<item name="wbb.post.ipAddress.otherUsers"><![CDATA[Bu {$post->getIpAddress()} IP adresini kullanan diğer kullanıcılar]]></item>
 		<item name="wbb.post.ipAddress.post"><![CDATA[{$post->username} IP adresi]]></item>
 		<item name="wbb.post.ipAddress.title"><![CDATA[IP adresi]]></item>
-		<item name="wbb.post.like.notification.message"><![CDATA[<strong>{$author}</strong> adlı kullanıcı <strong>{$thread->getTitle()}</strong> adlı konudaki mesajınıza tepki verdi ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}).]]></item>
+		<item name="wbb.post.like.notification.message"><![CDATA[<strong>{$author}</strong> adlı kullanıcı <strong>{$thread->getTitle()}</strong> adlı konudaki mesajınıza ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}) ile tepki verdi.]]></item>
 		<item name="wbb.post.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} <strong>{$thread->getTitle()}</strong> adlı konudaki mesajınıza ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}) ile tepki verdi.]]></item>
 		<item name="wbb.post.like.notification.title"><![CDATA[Mesajınız beğenildi]]></item>
 		<item name="wbb.post.like.notification.title.stacked"><![CDATA[{#$count} kullanıcı mesajınıza tepki verdi]]></item>
@@ -873,7 +873,7 @@
 		<item name="wcf.acp.option.wbb_thread_enable_tags"><![CDATA[Konu etiketleme aktif edilsin mi?]]></item>
 		<item name="wcf.acp.option.wbb_thread_enable_tags.description"><![CDATA[Kullanıcılar etiket bulutunda da görünebilecek etiketlerle konuları etiketleyebilirler.]]></item>
 		<item name="wcf.acp.option.wbb_thread_guest_max_posts"><![CDATA[Misafirler için gösterilecek mesaj sayısı?]]></item>
-		<item name="wcf.acp.option.wbb_thread_guest_max_posts.description"><![CDATA[Misafirler için yalnızca yapılandırılan sınıra kadar olan ilk mesajlar görüntülenecektir. Daha fazla yanıtı olan mesaj dizileri, ziyaretçileri kaydolmaya veya oturum açmaya teşvik etmek için bir uyarı gösterecektir. Her zaman tüm gönderileri göstermek için 0 kullanın.]]]></item>
+		<item name="wcf.acp.option.wbb_thread_guest_max_posts.description"><![CDATA[Misafirler için yalnızca yapılandırılan sınıra kadar olan ilk mesajlar görüntülenecektir. Daha fazla yanıtı olan mesaj dizileri, ziyaretçileri kaydolmaya veya oturum açmaya teşvik etmek için bir uyarı gösterecektir. Her zaman tüm gönderileri göstermek için 0 kullanın.]]></item>
 		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle"><![CDATA[Konu kaç gün sonra otomatik çözümlenmiş olarak işaretlensin?]]></item>
 		<item name="wcf.acp.option.wbb_thread_marking_as_done_cycle.description"><![CDATA[Konu son cevabın tarihine göre belirli bir gün sonra tamamlandı olarak işaretlenecektir. Devre dışı bırakmak içinse 0 giriniz.]]></item>
 		<item name="wcf.acp.option.wbb_thread_max_formatted_excerpt_length"><![CDATA[Konu önizleme için en fazla karakter sayısı?]]></item>
