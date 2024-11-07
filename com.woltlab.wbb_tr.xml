@@ -381,21 +381,21 @@
 		<item name="wbb.thread.announcement"><![CDATA[Duyuru]]></item>
 		<item name="wbb.thread.article.joinTheDiscussion"><![CDATA[Tartışmaya katılın!]]></item>
 		<item name="wbb.thread.article.moreReplies"><![CDATA[{if $moreReplies == 1}Bir cevap daha{else}{#$moreReplies} daha fazla cevaplar{/if}]]></item>
-		<item name="wbb.thread.article.replies"><![CDATA[{#$replies} {if $replies == 1}Cevapla{else}Cevaplar{/if}]]></item>
+		<item name="wbb.thread.article.replies"><![CDATA[{#$replies} {if $replies == 1}Cevapla{else}Cevap{/if}]]></item>
 		<item name="wbb.thread.article.replies.title"><![CDATA[Cevaplar]]></item>
 		<item name="wbb.thread.article.reply"><![CDATA[Bir cevap yaz…]]></item>
-		<item name="wbb.thread.articleThread.info"><![CDATA[{#$articleThread->replies} {if $articleThread->replies == 1}cevap{else}cevaplar{/if}{if $articleThread->replies > 0}, en son: {@$articleThread->lastPostTime|time}{/if}]]></item>
+		<item name="wbb.thread.articleThread.info"><![CDATA[{#$articleThread->replies} {if $articleThread->replies == 1}cevap{else}cevap{/if}{if $articleThread->replies > 0}, en son: {@$articleThread->lastPostTime|time}{/if}]]></item>
 		<item name="wbb.thread.articleThread.message"><![CDATA[<p>Makalenin tartışılması{$article->username}<br>[wsa]{$article->articleID}[/wsa]:</p>
 <woltlab-quote>{@$articleContent->getFormattedTeaser()}</woltlab-quote>]]></item>
 		<item name="wbb.thread.articleThread.subject"><![CDATA[{@$articleContent->getTitle()}]]></item>
 		<item name="wbb.thread.attachments"><![CDATA[Konu {#$thread->attachments} adet ek dosya{if $thread->attachments != 1}lar{/if} içermektedir]]></item>
 		<item name="wbb.thread.bbcode.type"><![CDATA[Konu]]></item>
 		<item name="wbb.thread.bestAnswer"><![CDATA[En İyi Cevap]]></item>
-		<item name="wbb.thread.boxList.description.activity"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevaplar{/if}]]></item>
+		<item name="wbb.thread.boxList.description.activity"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevap{/if}]]></item>
 		<item name="wbb.thread.boxList.description.cumulativeLikes"><![CDATA[{include file='__topReaction' cachedReactions=$boxThread->cachedReactions render='full'}]]></item>
-		<item name="wbb.thread.boxList.description.hotness"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevaplar{/if}, {#$boxThread->views} Görüntülenme{if $boxThread->views != 1}s{/if}, {$boxThread->time|dateDiff}]]></item>
+		<item name="wbb.thread.boxList.description.hotness"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevap{/if}, {#$boxThread->views} Görüntülenme{if $boxThread->views != 1}{/if}, {$boxThread->time|dateDiff}]]></item>
 		<item name="wbb.thread.boxList.description.lastPostTime"><![CDATA[{user object=$boxThread->getLastPosterProfile() tabindex='-1'} <span class="separatorLeft">{@$boxThread->lastPostTime|time}</span>]]></item>
-		<item name="wbb.thread.boxList.description.replies"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevaplar{/if}, son: {@$boxThread->lastPostTime|time}]]></item>
+		<item name="wbb.thread.boxList.description.replies"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevap{/if}, son: {@$boxThread->lastPostTime|time}]]></item>
 		<item name="wbb.thread.boxList.description.views"><![CDATA[{#$boxThread->views} Görüntülenme{if $boxThread->views != 1}{/if}]]></item>
 		<item name="wbb.thread.button.add"><![CDATA[Yeni Konu]]></item>
 		<item name="wbb.thread.button.jumpToArticleThread"><![CDATA[Tartışma Konusu]]></item>
