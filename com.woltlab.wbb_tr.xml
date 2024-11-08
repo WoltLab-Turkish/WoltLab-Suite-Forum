@@ -307,13 +307,13 @@
 		<item name="wbb.post.ipAddress.post"><![CDATA[{$post->username} IP adresi]]></item>
 		<item name="wbb.post.ipAddress.title"><![CDATA[IP adresi]]></item>
 		<item name="wbb.post.like.notification.message"><![CDATA[<strong>{$author}</strong> adlı kullanıcı <strong>{$thread->getTitle()}</strong> adlı konudaki mesajınıza ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}) ile tepki verdi.]]></item>
-		<item name="wbb.post.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} <strong>{$thread->getTitle()}</strong> adlı konudaki mesajınıza ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}) ile tepki verdi.]]></item>
+		<item name="wbb.post.like.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language}, <strong>{$thread->getTitle()}</strong> adlı konudaki mesajınıza ({@$__wcf->getReactionHandler()->renderInlineList($reactions)}) ile tepki verdi.]]></item>
 		<item name="wbb.post.like.notification.title"><![CDATA[Mesajınız beğenildi]]></item>
 		<item name="wbb.post.like.notification.title.stacked"><![CDATA[{#$count} kullanıcı mesajınıza tepki verdi]]></item>
-		<item name="wbb.post.mention.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> forumda <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a> <a href="{$post->getLink()}">{$thread->getTitle()}</a> başlıklı konuda sizden bahsetti{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
-		<item name="wbb.post.mention.notification.mail.plaintext"><![CDATA[{@$author}, forumda “{@$thread->getBoard()->getTitle()}” başlıklı konuda “{@$thread->getTitle()}” [URL:{@$post->getLink()}] başlıklı konuda sizden bahsetti{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}]]></item>
+		<item name="wbb.post.mention.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a> forumunda <a href="{$post->getLink()}">{$thread->getTitle()}</a> başlıklı konuda sizden bahsetti{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
+		<item name="wbb.post.mention.notification.mail.plaintext"><![CDATA[{@$author}, “{@$thread->getBoard()->getTitle()}” forumunda “{@$thread->getTitle()}” [URL:{@$post->getLink()}] başlıklı konuda sizden bahsetti{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}]]></item>
 		<item name="wbb.post.mention.notification.mail.title"><![CDATA["{@$userNotificationObject->getThread()->topic}" başlıklı konuda sizden bahsedildi.]]></item>
-		<item name="wbb.post.mention.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if} <strong>{$userNotificationObject->getThread()->getTitle()}</strong> adlı konuda sizden bahsetti.]]></item>
+		<item name="wbb.post.mention.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if}, <strong>{$userNotificationObject->getThread()->getTitle()}</strong> adlı konuda sizden bahsetti.]]></item>
 		<item name="wbb.post.mention.notification.title"><![CDATA[Sizden bahsedildi]]></item>
 		<item name="wbb.post.message"><![CDATA[Mesaj]]></item>
 		<item name="wbb.post.message.error.minCharLength"><![CDATA[Mesaj çok kısa, en az {#$minCharLength} karakter içermeli.]]></item>
@@ -323,8 +323,8 @@
 		<item name="wbb.post.moderation.redirect"><![CDATA[Mesajınız manuel onay gerektirmektedir, onaylanana kadar mesajı göremezsiniz.]]></item>
 		<item name="wbb.post.moveToNewThread"><![CDATA[Yeni Bir Konuya Taşı]]></item>
 		<item name="wbb.post.moveToNewThread.boardID"><![CDATA[Hedef Forum]]></item>
-		<item name="wbb.post.notification.mail.html"><![CDATA[<p>{@$authorList} adlı kullanıcı, forumdaki <a href="{$post->getLink()}">{$thread->getTitle()}</a> başlıklı konuya cevap verdi. Kategori: <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a>{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
-		<item name="wbb.post.notification.mail.plaintext"><![CDATA[{@$authorList} adlı kullanıcı, forumdaki “{@$thread->getTitle()}” başlıklı konuya cevap verdi. Kategori: [URL:{@$post->getLink()}] “{@$thread->getBoard()->getTitle()}”{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE && $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+		<item name="wbb.post.notification.mail.html"><![CDATA[<p>{@$authorList} adlı kullanıcı forumdaki <a href="{$post->getLink()}">{$thread->getTitle()}</a> başlıklı konuya cevap verdi. Kategori: <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a>{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
+		<item name="wbb.post.notification.mail.plaintext"><![CDATA[{@$authorList} adlı kullanıcı forumdaki “{@$thread->getTitle()}” başlıklı konuya cevap verdi. Kategori: [URL:{@$post->getLink()}] “{@$thread->getBoard()->getTitle()}”{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE && $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
 		<item name="wbb.post.notification.mail.title"><![CDATA[Konu: "{@$thread->getTitle()}" yeni cevap var.]]></item>
 		<item name="wbb.post.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong> adlı kullanıcı {else}Misafir biri{/if} <strong>{$userNotificationObject->getThread()->getTitle()}</strong> adlı konuyu cevapladı.]]></item>
 		<item name="wbb.post.notification.message.stacked"><![CDATA[{@'wcf.user.notification.stacked.authorList'|language} adlı kullanıcı <strong>{$message->getThread()->getTitle()}</strong> adlı konuyu cevapladı.]]></item>
@@ -357,7 +357,7 @@
 		<item name="wbb.post.quote.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> forumda <a href="{$thread->getBoard()->getLink()}">{$thread->getBoard()->getTitle()}</a> <a href="{@$post->getLink()}">{$thread->getTitle()}</a> başlıklı konuda yanıt olarak gönderdiğiniz bir gönderiyi alıntıladı{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}</p>]]></item>
 		<item name="wbb.post.quote.notification.mail.plaintext"><![CDATA[{@$author}, forumda “{@$thread->getBoard()->getTitle()}” başlıklı konuda “{@$thread->getTitle()}” [URL:{@$post->getLink()}] başlıklı yanıtta gönderilerinizden birini alıntıladı{if WBB_POST_NOTIFICATION_MAIL_INCLUDE_MESSAGE}:{else}.{/if}]]></item>
 		<item name="wbb.post.quote.notification.mail.title"><![CDATA["{@$userNotificationObject->getThread()->topic}" başlıklı konuda alıntılandınız.]]></item>
-		<item name="wbb.post.quote.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if} <strong>{$userNotificationObject->getThread()->getTitle()}</strong> başlıklı konuda sizden alıntı yapıldı.]]></item>
+		<item name="wbb.post.quote.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Bir misafir{/if}, <strong>{$userNotificationObject->getThread()->getTitle()}</strong> başlıklı konuda sizden alıntı yapıldı.]]></item>
 		<item name="wbb.post.quote.notification.title"><![CDATA[Sizden alıntı yapıldı]]></item>
 		<item name="wbb.post.reported"><![CDATA[Mesaj Rapor Edildi]]></item>
 		<item name="wbb.post.subject"><![CDATA[Konu]]></item>
@@ -381,21 +381,21 @@
 		<item name="wbb.thread.announcement"><![CDATA[Duyuru]]></item>
 		<item name="wbb.thread.article.joinTheDiscussion"><![CDATA[Tartışmaya katılın!]]></item>
 		<item name="wbb.thread.article.moreReplies"><![CDATA[{if $moreReplies == 1}Bir cevap daha{else}{#$moreReplies} daha fazla cevaplar{/if}]]></item>
-		<item name="wbb.thread.article.replies"><![CDATA[{#$replies} {if $replies == 1}Cevapla{else}Cevaplar{/if}]]></item>
+		<item name="wbb.thread.article.replies"><![CDATA[{#$replies} {if $replies == 1}Cevapla{else}Cevap{/if}]]></item>
 		<item name="wbb.thread.article.replies.title"><![CDATA[Cevaplar]]></item>
 		<item name="wbb.thread.article.reply"><![CDATA[Bir cevap yaz…]]></item>
-		<item name="wbb.thread.articleThread.info"><![CDATA[{#$articleThread->replies} {if $articleThread->replies == 1}cevap{else}cevaplar{/if}{if $articleThread->replies > 0}, en son: {@$articleThread->lastPostTime|time}{/if}]]></item>
+		<item name="wbb.thread.articleThread.info"><![CDATA[{#$articleThread->replies} {if $articleThread->replies == 1}cevap{else}cevap{/if}{if $articleThread->replies > 0}, en son: {@$articleThread->lastPostTime|time}{/if}]]></item>
 		<item name="wbb.thread.articleThread.message"><![CDATA[<p>Makalenin tartışılması{$article->username}<br>[wsa]{$article->articleID}[/wsa]:</p>
 <woltlab-quote>{@$articleContent->getFormattedTeaser()}</woltlab-quote>]]></item>
 		<item name="wbb.thread.articleThread.subject"><![CDATA[{@$articleContent->getTitle()}]]></item>
 		<item name="wbb.thread.attachments"><![CDATA[Konu {#$thread->attachments} adet ek dosya{if $thread->attachments != 1}lar{/if} içermektedir]]></item>
 		<item name="wbb.thread.bbcode.type"><![CDATA[Konu]]></item>
 		<item name="wbb.thread.bestAnswer"><![CDATA[En İyi Cevap]]></item>
-		<item name="wbb.thread.boxList.description.activity"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevaplar{/if}]]></item>
+		<item name="wbb.thread.boxList.description.activity"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevap{/if}]]></item>
 		<item name="wbb.thread.boxList.description.cumulativeLikes"><![CDATA[{include file='__topReaction' cachedReactions=$boxThread->cachedReactions render='full'}]]></item>
-		<item name="wbb.thread.boxList.description.hotness"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevaplar{/if}, {#$boxThread->views} Görüntülenme{if $boxThread->views != 1}s{/if}, {$boxThread->time|dateDiff}]]></item>
+		<item name="wbb.thread.boxList.description.hotness"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevap{/if}, {#$boxThread->views} Görüntülenme{if $boxThread->views != 1}{/if}, {$boxThread->time|dateDiff}]]></item>
 		<item name="wbb.thread.boxList.description.lastPostTime"><![CDATA[{user object=$boxThread->getLastPosterProfile() tabindex='-1'} <span class="separatorLeft">{@$boxThread->lastPostTime|time}</span>]]></item>
-		<item name="wbb.thread.boxList.description.replies"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevaplar{/if}, son: {@$boxThread->lastPostTime|time}]]></item>
+		<item name="wbb.thread.boxList.description.replies"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevap{/if}, son: {@$boxThread->lastPostTime|time}]]></item>
 		<item name="wbb.thread.boxList.description.views"><![CDATA[{#$boxThread->views} Görüntülenme{if $boxThread->views != 1}{/if}]]></item>
 		<item name="wbb.thread.button.add"><![CDATA[Yeni Konu]]></item>
 		<item name="wbb.thread.button.jumpToArticleThread"><![CDATA[Tartışma Konusu]]></item>
@@ -1029,8 +1029,8 @@
 		<item name="wcf.user.option.watchThreadOnReply"><![CDATA[Cevap verdiğin konuları izlemeye almak ister misin? (Evet; Sürekli bildirim almanıza neden olabilir)]]></item>
 	</category>
 	<category name="wcf.user.profile">
-		<item name="wcf.user.profile.recentActivity.bestAnswer"><![CDATA[<strong>{$author}</strong> marked <strong>{$post->username}’s post</strong> in the thread {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong>’in yanıtı en iyi cevap olarak işaretlendi.]]></item>
-		<item name="wcf.user.profile.recentActivity.likedPost"><![CDATA[<strong>{$author}</strong> reacted with  to  {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if} <strong>{$post->username}’s post</strong> <strong>{$thread->getTitle()}</strong> <span title="{$reactionType->getTitle()}" class="jsTooltip">{unsafe:$reactionType->renderIcon()}</span> ile tepki verdi.]]></item>
+		<item name="wcf.user.profile.recentActivity.bestAnswer"><![CDATA[<strong>{$author}</strong>, {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong> adlı konudaki  <strong>{$post->username}’in yanıtı</strong> en iyi cevap olarak işaretlendi.]]></item>
+		<item name="wcf.user.profile.recentActivity.likedPost"><![CDATA[<strong>{$author}</strong>,  {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}  <strong>{$thread->getTitle()}</strong> konusundaki <strong>{$post->username}’in gönderisine</strong> <span title="{$reactionType->getTitle()}" class="jsTooltip">{unsafe:$reactionType->renderIcon()}</span> ile tepki verdi.]]></item>
 		<item name="wcf.user.profile.recentActivity.post"><![CDATA[<strong>{$author}</strong>, {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong> adlı konuya cevap verdi.]]></item>
 		<item name="wcf.user.profile.recentActivity.thread"><![CDATA[<strong>{$author}</strong>, {if $thread->hasLabels()}<ul class="labelList">{foreach from=$thread->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$thread->getTitle()}</strong> adlı konuyu oluşturdu.]]></item>
 	</category>
