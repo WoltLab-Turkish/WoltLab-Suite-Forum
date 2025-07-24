@@ -632,8 +632,8 @@
 		<item name="wcf.acl.option.com.woltlab.wbb.board.canLikePost"><![CDATA[Mesajları beğenebilir mi?]]></item>
 		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkAsDoneOwnThread"><![CDATA[Kendi konularını çözümlenmiş olarak işaretleyebilir]]></item>
 		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkAsDoneThread"><![CDATA[Konuları çözümlenmiş olarak işaretleyebilir mi?]]></item>
-		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkBestAnswer"><![CDATA[“En İyi Cevap“ olarak işaretlenebilir]]></item>
-		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkBestAnswerOwnThread"><![CDATA[Kendi ileti dizilerinde “En İyi Yanıt“ ı işaretleyebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkBestAnswer"><![CDATA[“En İyi Cevap” olarak işaretlenebilir]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canMarkBestAnswerOwnThread"><![CDATA[Kendi ileti dizilerinde “En İyi Yanıt” ı işaretleyebilir]]></item>
 		<item name="wcf.acl.option.com.woltlab.wbb.board.canMergePost"><![CDATA[Mesajları birleştirebilir mi?]]></item>
 		<item name="wcf.acl.option.com.woltlab.wbb.board.canMergeThread"><![CDATA[Konuları birleştirebilir mi?]]></item>
 		<item name="wcf.acl.option.com.woltlab.wbb.board.canMovePost"><![CDATA[Mesajları taşıyabilir mi?]]></item>
