@@ -129,6 +129,7 @@
 		<item name="wbb.acp.rssFeed.cycleTime.86400"><![CDATA[Her 24 saat]]></item>
 		<item name="wbb.acp.rssFeed.cycleTime.description"><![CDATA[Ayarlanan sıklığa göre RSS yeni girdiler için kontrol edilecek.]]></item>
 		<item name="wbb.acp.rssFeed.description"><![CDATA[Dış RSS kaynakları belirli zaman aralıklarınca kontrol edilecek yeni içerikler konu olarak oluşturulacaktır.]]></item>
+		<item name="wbb.acp.rssFeed.disable"><![CDATA[RSS Beslemesini Devre Dışı Bırak]]></item>
 		<item name="wbb.acp.rssFeed.disableThread"><![CDATA[Oluşturduktan sonra konuyu etkisizleştir]]></item>
 		<item name="wbb.acp.rssFeed.edit"><![CDATA[RSS Düzenle]]></item>
 		<item name="wbb.acp.rssFeed.error.noBoards"><![CDATA[RSS ekleyebilmek için öncelikle en az bir adet <a href="{link controller='BoardAdd' application='wbb'}{/link}">forum oluşturmalısınız</a>.]]></item>
@@ -239,11 +240,11 @@
 		<item name="wbb.index.selectForumForNewThread"><![CDATA[Yeni Konu İçin Forum Seçiniz]]></item>
 		<item name="wbb.index.stats"><![CDATA[İstatistikler]]></item>
 		<item name="wbb.index.stats.detail"><![CDATA[<ul class="inlineList dotSeparated">
-<li>{#$stats[members]} Kullanıcı{if $stats.members != 1}{/if}</li>
-<li>{#$stats[threads]} Konu{if $stats[threads] != 1}{/if}</li>
-<li>{#$stats[posts]} Mesaj{if $stats[posts] != 1}{/if} (Günlük {#$stats[postsPerDay]} {if $stats[postsPerDay] != 1}{/if} Mesaj)</li>
+<li>{#$userStats->members} Kullanıcı{if $userStats->members != 1}{/if}</li>
+<li>{#$boardStats->threads} Konu{if $boardStats->threads != 1}{/if}</li>
+<li>{#$boardStats->posts} Mesaj{if $boardStats->posts != 1}{/if} (Günlük {#$boardStats->postsPerDay} {if $boardStats->postsPerDay != 1}{/if} Mesaj)</li>
 </ul>
-{if $stats[newestMember]}<p>En Yeni Kullanıcı: {user object=$stats[newestMember]}.</p>{/if}]]></item>
+<p>En Yeni Kullanıcı: {user object=$userStats->newestMember}.</p>]]></item>
 	</category>
 	<category name="wbb.post">
 		<item name="wbb.post.add"><![CDATA[Konuyu Cevapla]]></item>
@@ -392,11 +393,6 @@
 		<item name="wbb.thread.bbcode.type"><![CDATA[Konu]]></item>
 		<item name="wbb.thread.bestAnswer"><![CDATA[En İyi Cevap]]></item>
 		<item name="wbb.thread.boxList.description.activity"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevap{/if}]]></item>
-		<item name="wbb.thread.boxList.description.cumulativeLikes"><![CDATA[{include file='__topReaction' cachedReactions=$boxThread->cachedReactions render='full'}]]></item>
-		<item name="wbb.thread.boxList.description.hotness"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevap{/if}, {#$boxThread->views} Görüntülenme{if $boxThread->views != 1}{/if}, {$boxThread->time|dateDiff}]]></item>
-		<item name="wbb.thread.boxList.description.lastPostTime"><![CDATA[{user object=$boxThread->getLastPosterProfile() tabindex='-1'} <span class="separatorLeft">{@$boxThread->lastPostTime|time}</span>]]></item>
-		<item name="wbb.thread.boxList.description.replies"><![CDATA[{#$boxThread->replies} {if $boxThread->replies == 1}Cevap{else}Cevap{/if}, son: {@$boxThread->lastPostTime|time}]]></item>
-		<item name="wbb.thread.boxList.description.views"><![CDATA[{#$boxThread->views} Görüntülenme{if $boxThread->views != 1}{/if}]]></item>
 		<item name="wbb.thread.button.add"><![CDATA[Yeni Konu]]></item>
 		<item name="wbb.thread.button.jumpToArticleThread"><![CDATA[Tartışma Konusu]]></item>
 		<item name="wbb.thread.closed"><![CDATA[Kapalı]]></item>
@@ -842,6 +838,8 @@
 		<item name="wcf.acp.option.wbb_board_enable_stats"><![CDATA[Forum istatistikleri gösterilsin mi?]]></item>
 		<item name="wcf.acp.option.wbb_board_list_depth"><![CDATA[Forum Listesi Derinliği]]></item>
 		<item name="wcf.acp.option.wbb_board_list_depth.description"><![CDATA[Forum listesinde gösterilen forumların en fazla derinliği]]></item>
+		<item name="wcf.acp.option.wbb_board_list_enable_sub_boards"><![CDATA[Ek alt forumları küçük harflerle göster]]></item>
+		<item name="wcf.acp.option.wbb_board_list_enable_sub_boards.description"><![CDATA[Belirtilen forum listesi derinliğini aşan alt forumların daha küçük bir sürümünü gösterir.]]></item>
 		<item name="wcf.acp.option.wbb_board_threads_enable_language_flag"><![CDATA[Konu dili bayrakla gösterilsin mi?]]></item>
 		<item name="wcf.acp.option.wbb_board_threads_enable_language_flag.description"><![CDATA[Konular, konu oluşturucu tarafından hangi dilin kullanıldığına bağlı olarak bir bayrak görüntüler.]]></item>
 		<item name="wcf.acp.option.wbb_board_threads_per_page"><![CDATA[Sayfa başına kaç adet konu gösterilsin?]]></item>
@@ -1007,7 +1005,6 @@
 		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.post"><![CDATA[Mesaj]]></item>
 		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.thread"><![CDATA[Konu]]></item>
 		<item name="wcf.user.boxList.description.wbbPosts"><![CDATA[{#$boxUser->wbbPosts} Mesaj{if $boxUser->wbbPosts != 1}lar{/if}]]></item>
-		<item name="wcf.user.sortField.wbbPosts"><![CDATA[Mesajlar]]></item>
 	</category>
 	<category name="wcf.user.condition">
 		<item name="wcf.user.condition.wbbBestAnswers"><![CDATA[Konularda En İyi Cevaplar]]></item>
